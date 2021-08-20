@@ -134,8 +134,6 @@
     
     p En este paso se garantiza la efectividad y eficacia en la provisión y el soporte de servicios, con el fin de generar valor para el cliente y el proveedor del servicio (Granizo, 2009).
 
-    p.mb-5 ITIL recomienda definir inequívocamente los servicios que debe ofrecer la empresa a sus clientes como:
-
     .row.justify-content-center
       .col-md-10
         .bloque-texto-a.reverso.color-primario.p-4.p-md-5.mb-5 
@@ -303,7 +301,7 @@
     #2-4.titulo-segundo
       h2 2.4. Análisis de procesos existentes
 
-    .float-layout-container.mb-5
+    .float-layout-container
       img.img-text(
         src='@/assets/curso/pexels-pixabay-265087.jpg',
         alt='Texto que describa la imagen'
@@ -373,10 +371,439 @@
     p.mb-5 Un ejemplo de proceso interno es: 
 
 
+    .row.justify-content-center
+      .col-md-6.col-lg-5.mb-4
+        .tarjeta.tarjeta-hover.color-acento-botones__claro.p-4(@mouseover='mostrarIndicador = false')
+          .row.justify-content-center.mb-3
+            .col-4
+              img.img-text(
+                src='@/assets/curso/t2-icon-01-b.svg',
+                alt='Texto que describa la imagen'
+              )
+          p.mb-0 La gestión de incidentes inicia con la petición del usuario, quien ingresa a la plataforma de gestión y luego registra la solicitud que será evaluada por el soporte Junior o soporte Senior. 
 
+          .tarjeta-hover__hover
+            img(
+              src='@/assets/curso/t2-icon-01.svg',
+              alt='Texto que describa la imagen'
+            )
+          .indicador--hover(v-if='mostrarIndicador')
 
+      .col-md-6.col-lg-5.mb-4
+        .tarjeta.tarjeta-hover.color-acento-botones__claro.p-4(@mouseover='mostrarIndicador = false')
+          .row.justify-content-center.mb-3
+            .col-4
+              img.img-text(
+                src='@/assets/curso/t2-icon-02-b.svg',
+                alt='Texto que describa la imagen'
+              )
+          p.mb-0 Según los acuerdos de tiempo de entrega se le asigna la prioridad al incidente, los cuales constan en los acuerdos entre el proveedor del servicio – cliente. 
 
+          .tarjeta-hover__hover
+            img(
+              src='@/assets/curso/t2-icon-02.svg',
+              alt='Texto que describa la imagen'
+            )
 
+      .col-md-6.col-lg-5.mb-4
+        .tarjeta.tarjeta-hover.color-acento-botones__claro.p-4(@mouseover='mostrarIndicador = false')
+          .row.justify-content-center.mb-3
+            .col-4
+              img.img-text(
+                src='@/assets/curso/t2-icon-03-b.svg',
+                alt='Texto que describa la imagen'
+              )
+          p.mb-0 Se realizan las actividades que den respuesta al incidente.
+
+          .tarjeta-hover__hover
+            img(
+              src='@/assets/curso/t2-icon-03.svg',
+              alt='Texto que describa la imagen'
+            )
+
+      .col-md-6.col-lg-5.mb-4
+        .tarjeta.tarjeta-hover.color-acento-botones__claro.p-4(@mouseover='mostrarIndicador = false')
+          .row.justify-content-center.mb-3
+            .col-4
+              img.img-text(
+                src='@/assets/curso/t2-icon-04-b.svg',
+                alt='Texto que describa la imagen'
+              )
+          p.mb-0 Si los incidentes son comunes o repetitivos deben reposar en una base de conocimiento para ingresarlos al proceso de control de calidad, donde se encuesta el nivel de servicio con sus respectivos informes.
+
+          .tarjeta-hover__hover
+            img(
+              src='@/assets/curso/t2-icon-04.svg',
+              alt='Texto que describa la imagen'
+            )
+
+    Separador
+
+    #2-6.titulo-segundo
+      h2 2.6. Definición de interfaces de ITIL
+
+    p.mb-5 Las interfaces de procesos de incidentes son los canales de comunicación con el área de soporte, y pueden ser llevados a cabo telefónicamente, por correo electrónico, chats, plataformas web, entre otros; pero independiente de cuál sea el medio de entrada, las salidas serán comunes a todas las entradas, de modo que todo se reporte en un sitio centralizadamente.  En la tabla que está a continuación, se presentan las entradas y salidas más comunes del proceso.
+
+    .row.justify-content-center.mb-5
+      .col-md-10
+        .titulo-sexto.color-acento-contenido
+          p.mb-0
+            b Tabla 6. 
+            | Entradas y salidas más comunes del proceso
+        table.tabla
+          thead
+            tr
+              th(colspan="2") Entrada
+              th Salidas
+          tbody
+            tr
+              td.p-4(colspan="2") 
+                ul.list-ul.mb-0
+                  li.mb-4
+                    i.lista-ul__vineta.item-verde
+                    p.mb-0
+                      b Formulario web de incidentes 
+                      br
+                      | Los incidentes se activan cuando se registran las peticiones en este formulario. 
+                  li.mb-4
+                    i.lista-ul__vineta.item-verde
+                    p.mb-0
+                      b Correo electrónico
+                      br
+                      | Se debe proveer un correo electrónico para que el cliente pueda informar su solicitud.
+                  li.mb-4
+                    i.lista-ul__vineta.item-verde
+                    p.mb-0
+                      b Llamada telefónica
+                      br
+                      | Proporcionar un número de contacto para que el cliente pueda manifestar su petición.
+                  li.mb-0
+                    i.lista-ul__vineta.item-verde
+                    p.mb-0
+                      b Chat
+                      br
+                      | Establecer un canal de chat como WhatsApp o Telegram para que el cliente indique su petición.
+              td.p-4
+                ul.list-ul.mb-0
+                  li.mb-2
+                    i.lista-ul__vineta.item-verde
+                    | Informes de incidencias gestionadas.
+                  li.mb-2
+                    i.lista-ul__vineta.item-verde
+                    | Nivel de satisfacción.
+                  li.mb-2
+                    i.lista-ul__vineta.item-verde
+                    | Reporte de oportunidad de atención.
+
+    p.mb-5 Una vez identificada la entrada es importante definir la clasificación del incidente como lo indica la escala básica enunciada en la tabla 7: 
+
+    .row.justify-content-center.mb-5
+      .col-md-10
+        .titulo-sexto.color-acento-contenido
+          p.mb-0
+            b Tabla 7. 
+            | Escala básica de incidentes
+        table.tabla
+          thead
+            tr
+              th(colspan="5") Escala básica de incidencias
+          tbody
+            tr
+              td.text-bold Normal
+              td(colspan="4") Hace referencia a una solicitud hecha por el director de tecnología o a quien delegue, donde no se ve comprometido o afectado de manera considerable el servicio para el cual se solicita el soporte. El nivel de criticidad no afecta de manera directa el core del servicio de agendamiento.
+            tr
+              td.text-bold Prioritaria
+              td(colspan="4") Hace referencia a una solicitud hecha por el director de tecnología o a quien delegue, donde se ve afectado de manera directa el correcto funcionamiento de las herramientas o servicios definidos en el alcance. Estas fallas pueden afectar directamente el core del servicio de agendamiento.
+            tr
+              td.text-bold Programada
+              td(colspan="4") Hace referencia a una solicitud hecha por el director de tecnología o a quien delegue, donde el acceso a los servicios o herramientas no se ve afectado, pero es necesario programar alguna actividad de ajustes, cambios, parametrizaciones o actualizaciones.
+
+    .float-layout-container
+      img.img-text.ms-3.mb-3.w-50(
+        src='@/assets/curso/t2-02.jpg',
+        alt='Texto que describa la imagen'
+      )
+
+      p Los incidentes también se clasifican por tipo de solicitud:
+
+      ul.list-ul
+        li.mb-2
+          i.lista-ul__vineta.item-verde
+          | Falla general del sistema.
+        li.mb-2
+          i.lista-ul__vineta.item-verde
+          | No registra datos. 
+        li.mb-2
+          i.lista-ul__vineta.item-verde
+          | Muestra información incompleta.
+        li.mb-2
+          i.lista-ul__vineta.item-verde
+          | Ausencia de información.
+        li.mb-2
+          i.lista-ul__vineta.item-verde
+          | Falla de conectividad.
+        li.mb-2
+          i.lista-ul__vineta.item-verde
+          | El sistema está lento.
+
+      p.mb-0 La escala básica y los tipos de solicitud de incidencias permiten contar con  reportes para identificar los aspectos que más fallas registran y proceder con la mejora del servicio.
+
+    Separador
+
+    #2-7.titulo-segundo
+      h2 2.7. Establecimiento de controles
+
+    p.mb-5 En este paso se definen los controles y el tiempo de su aplicación en la mesa de servicio, con el fin realizar seguimiento al cumplimiento de los procesos internos de atención al usuario y a los acuerdos entre el proveedor del servicio – cliente, que permitan mejorar el servicio. Algunos ejemplos de controles son:
+
+    .cajon.color-acento-botones.p-4.mb-4
+      ul.list-ul.mb-0
+        li.mb-2
+          i.lista-ul__vineta.item-verde
+          | Revisión mensual de los indicadores de gestión para identificar el tipo de servicio que presenta más fallas o no está correctamente gestionado.
+        li.mb-2
+          i.lista-ul__vineta.item-verde
+          | Revisión quincenal de los incidentes retrasados no gestionados para intervenir en cada caso y llegar a un acuerdo de nivel con el cliente.
+        li.mb-0
+          i.lista-ul__vineta.item-verde
+          | Revisión trimestral del tipo de falla que más reporta incidencias para establecer un plan de mejora sobre el servicio.
+
+    p.mb-5 Para materializar esos controles se deben utilizar los indicadores de gestión, los cuales van a estar definidos por los incidentes resueltos y sin resolver, tal como se describe en la siguiente tabla: 
+
+    .row.justify-content-center.mb-5
+      .col-md-10
+        .titulo-sexto.color-acento-contenido
+          p.mb-0
+            b Tabla 8. 
+            | Indicadores de gestión
+        table.tabla
+          thead
+            tr
+              th Indicador
+              th Descripción
+          tbody
+            tr
+              td Número de incidentes solicitados.
+              td Cantidad de registros de solicitudes de incidentes.
+            tr
+              td Número de incidentes en ejecución.
+              td Cantidad de incidentes que no se han resuelto aún.
+            tr
+              td Número de incidentes retrasados no cerrados.
+              td
+                | Cantidad de incidentes que se han pasado del tiempo o nivel de servicio acordado con el cliente y aún no se han resuelto.
+            tr
+              td Tipo medio de incidencia por tipo incidencia.
+              td
+                | Cantidad de tiempo promedio empleado en resolver las incidencias reportadas durante determinado rango de horas, días, meses.
+            tr
+              td Tipo medio de incidencia por clasificación de la falla.
+              td
+                | Cantidad de tiempo promedio empleado en resolver incidencias para cada tipo de clasificación.
+            tr
+              td Número de incidentes cerrados fuera de tiempo por clasificación.
+              td
+                | Cantidad de incidentes que se resolvieron por fuera del tiempo acordado con el cliente.
+
+    p.mb-0 Los anteriores indicadores no son los únicos, es posible que con la implementación y ejecución de los servicios se evidencian otros, según la dinámica del servicio.
+
+    Separador
+
+    #2-8.titulo-segundo
+      h2 2.8. Diseño de los procesos
+
+    p.mb-5 Generalmente, en el diseño de procesos de gestión de incidentes deben existir al menos cuatro niveles: 
+
+    TabsA.color-acento-botones.mb-5
+      .tarjeta.color-acento-botones__claro.p-4(titulo="Nivel 1")
+        .row.justify-content-center.align-items-center
+          .col-6.col-md-2.mb-4.mb-md-0
+            img(
+              src='@/assets/curso/t2-icon-05.svg',
+              alt='Texto que describa la imagen'
+            )
+          .col-md
+            p.mb-0 Si no se logra brindar una solución en el nivel anterior se escala el incidente a este nivel para que el técnico de desarrollo del sistema atienda este requerimiento.
+            
+      .tarjeta.color-acento-botones__claro.p-4(titulo="Nivel 2")
+        .row.justify-content-center.align-items-center
+          .col-6.col-md-2.mb-4.mb-md-0
+            img(
+              src='@/assets/curso/t2-icon-06.svg',
+              alt='Texto que describa la imagen'
+            )
+          .col-md
+            p.mb-0 Se da comienzo con una asistencia inicial, este nivel es el responsable de las incidencias básicas del cliente, es el primer contacto con el usuario; proporciona asistencia física y/o remota a reportes relacionados con el uso de los dispositivos de cómputo, impresión, conectividad, entre otros. Atiende el requerimiento y brinda solución a las fallas básicas; un ejemplo de falla básica: la falta de capacitación del usuario en el manejo de la herramienta bien sea de hadware o software.
+      .tarjeta.color-acento-botones__claro.p-4(titulo="Nivel 3")
+        .row.justify-content-center.align-items-center
+          .col-6.col-md-2.mb-4.mb-md-0
+            img(
+              src='@/assets/curso/t2-icon-07.svg',
+              alt='Texto que describa la imagen'
+            )
+          .col-md
+            p.mb-0 Cuando el incidente se escala a este nivel es porque la falla tiene su origen en el servicio o en  algún proveedor de servicios en la nube, y solo ellos pueden dar solución a esta situación. También se escala a terceros los daños que requieren de personal especializado en soporte técnico y ellos serán los responsables.
+      .tarjeta.color-acento-botones__claro.p-4(titulo="Nivel 4")
+        .row.justify-content-center.align-items-center
+          .col-6.col-md-2.mb-4.mb-md-0
+            img(
+              src='@/assets/curso/t2-icon-08.svg',
+              alt='Texto que describa la imagen'
+            )
+          .col-md
+            p.mb-0 Cuando la solicitud no es una falla y atiende a un requerimiento que el sistema actual no tiene, indica que se debe intervenir con el desarrollo de nueva funcionalidad o modificación de la función actual.
+
+    p.mb-5 La siguiente figura muestra un ejemplo del modelo de proceso que debe ser documentado y ampliado para los subprocesos de escalado a nivel 3 y 4.
+
+    .row.justify-content-center.mb-5
+      .col-md-8
+        .titulo-sexto.color-acento-contenido
+          p.mb-0
+            b Figura 3. 
+            | Modelo del proceso de mesa de servicio
+        img(
+          src='@/assets/curso/t2-info-02.svg',
+          alt='Texto que describa la imagen'
+        )
+
+    p.mb-0 A medida que se van implementando los anteriores procesos se pueden ir modificando las acciones y modelos, de tal forma que se adapten cada vez más a la satisfacción de las necesidades del cliente.
+
+    Separador
+
+    #2-9.titulo-segundo
+      h2 2.9. Selección e implementación de sistemas
+
+    p.mb-5 En el mercado existen muchas herramientas de pago y gratuitas, las cuales pueden ser seleccionadas según la necesidad. En la siguiente figura se muestra algunas de las herramientas de pago con sus diferentes características:
+
+    .row.justify-content-center.mb-5
+      .col-md-10
+        .titulo-sexto.color-acento-contenido
+          p.mb-0
+            b Figura 4. 
+            | Servidores desk software de pago 
+        figure
+          img.borde-verde(
+            src='@/assets/curso/comparativa_helpdesk.png',
+            alt='Texto que describa la imagen'
+          )
+          figcaption Nota. Tomado de Bonillaware (2021). https://www.bonillaware.com/wp-content/uploads/comparativa_helpdesk.png
+
+    p.mb-5 En el mercado existen muchas herramientas de pago y gratuitas, las cuales pueden ser seleccionadas según la necesidad. En la siguiente figura se muestra algunas de las herramientas de pago con sus diferentes características:
+
+    .row.justify-content-center.mb-5
+      .col-md-10
+        .titulo-sexto.color-acento-contenido
+          p.mb-0
+            b Tabla 9. 
+            | Servidores desk software Open Source y no pago
+
+        table.tabla
+          thead
+            tr
+              th Proyecto
+              th Web
+          tbody
+            tr
+              td GLPI (Gestionnaire Libre de Parc Informatique)
+              td
+                a(href="https://glpi-project.org/es/" target="_blank") https://glpi-project.org/es/
+            tr
+              td osTicket
+              td
+                a(href="https://osticket.com/" target="_blank") https://osticket.com/
+            tr
+              td ((OTRS)) Community Edition
+              td
+                a(href="https://otrs.com/" target="_blank") https://otrs.com/
+            tr
+              td NetBox
+              td
+                a(href="https://netbox.readthedocs.io/en/stable/" target="_blank") https://netbox.readthedocs.io/en/stable/
+
+    p.mb-0 Al igual que en el listado de Servidores desk software de pago, los Servidores desk software Open Source no pago presentan características propias, las cuales pueden satisfacer diferentes necesidades de la empresa prestadora del servicio y a sus clientes.
+
+    Separador
+
+    #2-10.titulo-segundo
+      h2 2.10. Implementación de procesos y capacitación
+
+    .float-layout-container.mb-5
+      img.img-text(
+        src='@/assets/curso/designers-consulting.jpg',
+        alt='Texto que describa la imagen'
+      )
+      p Una vez elegidas las herramientas se procede a la instalación y configuración, de manera que a los clientes se les permita solicitar el soporte. Se recomienda usar la herramienta osTicket, ya que el proveedor la ofrece gratuitamente en su página web. 
+      .cajon.d-inline-block.color-acento-botones.p-4
+        p.mb-0 Casi todos los proveedores de hosting ofrecen alguna herramienta Open Source y las de chat online para brindar el respectivo soporte.
+
+      p En la siguiente figura se ofrece un ejemplo de una de las herramientas de soporte Open Source, llamada osTicket  en algunos de sus componentes de interfaz gráfica:
+
+    .row.justify-content-center.mb-5
+      .col-md-8
+        .titulo-sexto.color-acento-contenido
+          p.mb-0
+            b Figura 5. 
+            | Formulario para generar una incidencia
+        figure
+          img.borde-verde(
+            src='@/assets/curso/imagen1.jpg',
+            alt='Texto que describa la imagen'
+          )
+          figcaption Nota. Tomado de https://soporte.cloudsenactpi.net
+    
+    .row.justify-content-center
+      .col-md-10
+        .bloque-texto-a.reverso.color-primario.p-4.p-md-5.mb-5 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-4.mb-4.mb-lg-0
+              h3.mb-0 La herramienta seleccionada cuenta con los siguientes componentes y que se muestran en la figura que aparece a continuación.
+            .col-lg-8
+              .bloque-texto-a__texto.p-4
+                ul.lista-ul.mb-0
+                  li
+                    i.lista-ul__vineta.item-amarillo
+                    | Base de datos de conocimiento.
+                  li
+                    i.lista-ul__vineta.item-amarillo
+                    | Control de incidencias o tickets
+                  li.mb-0
+                    i.lista-ul__vineta.item-amarillo
+                    | Control de tareas y actividades.
+
+    .row.justify-content-center.mb-5
+      .col-md-8
+        .titulo-sexto.color-acento-contenido
+          p.mb-0
+            b Figura 6. 
+            | Algunas funcionalidades del sistema
+        figure
+          img.borde-verde(
+            src='@/assets/curso/imagen2.jpg',
+            alt='Texto que describa la imagen'
+          )
+          figcaption Nota. Tomado de https://soporte.cloudsenactpi.net 
+
+    p.mb-5 Como se puede observar en la siguiente figura el sistema seleccionado maneja acuerdos de nivel de servicio (SLA), configurables.
+
+    .row.justify-content-center.mb-5
+      .col-md-8
+        .titulo-sexto.color-acento-contenido
+          p.mb-0
+            b Figura 7. 
+            | Gestión de acuerdos de nivel de servicio
+        figure
+          img.borde-verde(
+            src='@/assets/curso/imagen3.jpg',
+            alt='Texto que describa la imagen'
+          )
+          figcaption Nota. Tomado de https://soporte.cloudsenactpi.net 
+
+    .float-layout-container
+      img.img-text.ms-3.mb-3(
+        src='@/assets/curso/imagen4.jpg',
+        alt='Texto que describa la imagen'
+      )
+      p Después de instalar e implementar la herramienta es necesario proceder con la capacitación de su equipo colaborador y de sus clientes para que se registren y se haga el seguimiento de las solicitudes.
+      p.mb-0 Finalmente, debido a que existen muchas herramientas para todo tipo de presupuesto que permiten implementar buenas prácticas de gestión de TI de usuarios, y existe una base de recomendaciones amplia para establecer estos procesos de implementación, es posible concluir que solo por la falta de compromiso con el progreso, una entidad dejaría de establecer estrategias que faciliten la gobernanza de TI. 
 
 
 
@@ -390,7 +817,7 @@ export default {
     BotonesB,
   },
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {

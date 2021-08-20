@@ -113,3 +113,28 @@
     
     i
       margin-right: 5px
+
+
+.tarjeta-hover
+  height: 100%
+  position: relative
+  cursor: pointer
+  &:hover
+    .tarjeta-hover__hover
+      transform: translateY(101%)
+
+  
+  &__hover
+    position: absolute
+    inset: 0
+    background-color: $color-primario
+    display: flex
+    align-items: center
+    justify-content: center
+    transform: translateY(0)
+    transition: transform .3s ease-in-out
+    img
+      width: 25%
+
+.borde-verde
+  border: 4px solid #26A69A
