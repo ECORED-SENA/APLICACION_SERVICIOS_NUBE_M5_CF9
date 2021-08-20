@@ -3,3 +3,113 @@
 
 .tarjeta
   overflow: hidden
+
+.color-primario__claro
+  background-color: #EDFBFC
+
+.color-acento-botones__claro
+  background-color: #FFEDB7
+
+.bloque-texto-a.color-primario
+  background-color: #F6F6F6
+
+  &:before
+    left: 0
+    right: 50%
+
+.float-layout-container
+  &:after
+    content: ''
+    clear: both
+    display: table
+
+  .cajon
+    float: left
+    width: 60%
+    margin-right: 2%
+    margin-bottom: 2%
+
+    @media (max-width: $bp-max-md)
+      width: 46%
+
+  .img-text
+    display: inline
+    width: 35%
+    float: right
+    margin-left: 2%
+    margin-bottom: 2%
+
+    @media (max-width: $bp-max-md)
+      width: 50%
+
+.img-hover
+  position: relative
+  overflow: hidden
+  cursor: pointer
+
+  &:hover
+    .img-hover__content
+      transform: translateY(0)
+
+  &__content
+    position: absolute
+    inset: 0
+    background: linear-gradient(0deg, rgba(0,16,78,1) 0%, rgba(0,16,78,0) 100%)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00104e",endColorstr="#00104e",GradientType=1)
+    display: flex
+    align-items: flex-end
+    transform: translateY(100%)
+    transition: transform .3s ease-in-out
+
+    *
+      color: $white
+
+.tabla
+  thead
+    tr
+      &:nth-child(1)
+        th
+          background-color: #FFA726
+          color: $white
+          font-size: $h3-font-size
+      &:nth-child(2)
+        th
+          background-color: #FFCA28
+          
+
+  th, td
+    border: 1px solid #FFA726
+  th
+    text-align: center
+
+  td
+    background-color: #FFF6DB
+
+  .titulo
+    background-color: #FFEDB7
+    text-align: center
+    font-weight: bold
+
+.bloque-texto-a.reverso
+  background-color: #FFF6DB
+  &:before
+    left: 50%
+    right: 0
+
+.item-amarillo
+  color: #FFCA28
+  font-size: $h1-font-size
+  line-height: 1em
+
+.item-verde
+  color: #26A69A
+  font-size: $h1-font-size
+  line-height: 1em
+
+.list-ul
+  li
+    display: flex
+    align-items: center
+    
+    i
+      margin-right: 5px

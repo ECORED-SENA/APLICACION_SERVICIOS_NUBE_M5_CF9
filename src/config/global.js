@@ -1,11 +1,10 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+    componenteFormativo: 'Gestión de clientes',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+      'La gestión de clientes es concebida como el pilar fundamental que sustenta el desarrollo y crecimiento de toda organización. En este componente se abordarán sus dos elementos a nivel comercial y de entidades.  Ambos tienen como fin maximizar su productividad, y para lograrlo, es necesario identificar los conceptos de gestión de TI, los cuales ejemplifican uno de los procesos de gestión de TI relacionándolo con la atención a usuarios finales de un conjunto de productos software.',
+    imagenBannerPrincipal: require('@/assets/curso/portada.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/banner.jpg'),
   },
   menuPrincipal: {
     menu: [
