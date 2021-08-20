@@ -7,25 +7,25 @@
         span 1
       h1 Conceptos generales
 
-    figure.mb-5.tarjeta
+    figure.mb-5.tarjeta(data-aos="fade-up")
       img(src='@/assets/curso/t1-01.jpg', alt='Texto que describa la imagen')
 
-    p La Gestión de Tecnologías de la Información (TI) es la disciplina enfocada en procesos para alinear los servicios de TI con las necesidades de las entidades y sus usuarios, centrándose en garantizar los beneficios que puede percibir el cliente final de las tecnologías gestionadas.
+    p(data-aos="fade-up") La Gestión de Tecnologías de la Información (TI) es la disciplina enfocada en procesos para alinear los servicios de TI con las necesidades de las entidades y sus usuarios, centrándose en garantizar los beneficios que puede percibir el cliente final de las tecnologías gestionadas.
 
-    p.mb-5 La gestión de servicios de TI se consolida en una integración de tres componentes: personas, procesos y tecnología como se muestra en el siguiente recurso:
+    p.mb-5(data-aos="fade-up") La gestión de servicios de TI se consolida en una integración de tres componentes: personas, procesos y tecnología como se muestra en el siguiente recurso:
 
-    Botones.mb-5
+    Botones.mb-5(data-aos="fade-up")
 
-    p.mb-0 El escenario general de los servicios de TI está asociado con el outsoursing (subcontratación o tercerización de procesos), servicios compartidos, por ejemplo, cuando la empresa usa GSuit, Teams, y también sistemas de información particulares de la empresa o sistemas legados. Sea cual sea el caso, es importante mantener una base de conocimiento de la gestión de los servicios ya que se ha probado que esas prácticas son exitosas.
+    p.mb-0(data-aos="fade-up") El escenario general de los servicios de TI está asociado con el outsoursing (subcontratación o tercerización de procesos), servicios compartidos, por ejemplo, cuando la empresa usa GSuit, Teams, y también sistemas de información particulares de la empresa o sistemas legados. Sea cual sea el caso, es importante mantener una base de conocimiento de la gestión de los servicios ya que se ha probado que esas prácticas son exitosas.
 
-    Separador
+    Separador(data-aos="fade-up")
 
-    #1-1.titulo-segundo
+    #1-1.titulo-segundo(data-aos="fade-up")
       h2 1.1 Beneficios de la gestión de TI
 
-    p El concepto anterior brinda una idea general de lo que es la gestión de TI y sus componentes, la cual es importante revisar para establecer estrategias y prácticas en las corporaciones, de forma que se puedan aprovechar los siguientes beneficios:
+    p(data-aos="fade-up") El concepto anterior brinda una idea general de lo que es la gestión de TI y sus componentes, la cual es importante revisar para establecer estrategias y prácticas en las corporaciones, de forma que se puedan aprovechar los siguientes beneficios:
 
-    AcordionA(tipo='a', clase-tarjeta='tarjeta color-acento-botones__claro')
+    AcordionA(tipo='a', clase-tarjeta='tarjeta color-acento-botones__claro' data-aos="fade-up")
       .row.align-items-center(titulo='Mejora en la productividad')
         .col-3.col-md-2.col-xl-1.mb-4.mb-md-0
           figure
@@ -88,12 +88,12 @@
         .col
           p.mb-0 posibilita saber en qué momento los clientes o usuarios cambian a un nuevo perfil para actualizar los servicios tecnológicos. Por tanto, se puede identificar el punto para ofrecer productos complementarios o nuevos servicios TI.
 
-    Separador
+    Separador(data-aos="fade-up")
 
-    #1-1.titulo-segundo
+    #1-1.titulo-segundo(data-aos="fade-up")
       h2 1.2. ¿Cómo y cuándo empezar la gestión de TI?
 
-    .row.justify-content-center.mb-5 
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-8
         .bloque-texto-a.color-primario.px-4.py-3
           .row.align-items-center.justify-content-between
@@ -110,16 +110,16 @@
                 alt='Texto que describa la imagen'
               )
 
-    .float-layout-container.mb-5
+    .float-layout-container.mb-5(data-aos="fade-up")
       img.img-text.ms-3.mb-3(
         src='@/assets/curso/happy-woman-with-phone.jpg',
         alt='Texto que describa la imagen'
       )
       p Casi todo el software que existe en el mercado para hacer gestión de TI es escalable en funcionalidad y costos. Esto quiere decir que existen herramientas para la gestión de TI con costos que van desde cero pesos hasta el valor que tenga dentro de una organización, y también existen herramientas de funcionalidades básicas que pueden configurarse para soportar las más complejas. Según esto, el costo en la adquisición de herramientas para la gestión TI no es una limitante; sin embargo, el desconocimiento de cómo usarlas o adoptar estrategias para la integración de estas herramientas con la atención a los usuarios y la gestión de los servicios, sí lo puede ser.
 
-    p.mb-5 Ahora, el escenario es el siguiente: existen herramientas para la gestión de TI de las que se puede disponer y también existen buenas prácticas ya definidas para la integración de estas herramientas con los procesos de atención al usuario y la gestión de TI. Por lo tanto, la conclusión es que para mejorar la estrategia de gestión de TI las actividades a realizar son:
+    p.mb-5(data-aos="fade-up") Ahora, el escenario es el siguiente: existen herramientas para la gestión de TI de las que se puede disponer y también existen buenas prácticas ya definidas para la integración de estas herramientas con los procesos de atención al usuario y la gestión de TI. Por lo tanto, la conclusión es que para mejorar la estrategia de gestión de TI las actividades a realizar son:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-6.col-lg-5.mb-4.mb-md-0
         .img-hover(@mouseover='mostrarIndicador = false')
           img(
@@ -144,16 +144,16 @@
               br
               | Seleccionar la necesidad de gestión y las herramientas que se ajusten al presupuesto (aunque el presupuesto sea cero).
 
-    p.mb-0 A la agrupación de mejores prácticas establecidas, su implementación e integración en los procesos en una entidad es lo que se denomina como Gobierno de TI o Gobernanza de TI y muchas de estas prácticas están documentadas en las librerías ITIL (Information Technology Infrastructure Library), librería que se ha internacionalizado y estandarizado a nivel mundial y ahora está en la Norma ISO/IEC 20000.
+    p.mb-0(data-aos="fade-up") A la agrupación de mejores prácticas establecidas, su implementación e integración en los procesos en una entidad es lo que se denomina como Gobierno de TI o Gobernanza de TI y muchas de estas prácticas están documentadas en las librerías ITIL (Information Technology Infrastructure Library), librería que se ha internacionalizado y estandarizado a nivel mundial y ahora está en la Norma ISO/IEC 20000.
 
-    Separador
+    Separador(data-aos="fade-up")
 
-    #1-3.titulo-segundo
+    #1-3.titulo-segundo(data-aos="fade-up")
       h2 1.3. Buenas prácticas en la gestión de TI
 
-    p.mb-5 La necesidad de innovación y transformación digital que cada vez más crece en las entidades crea un aumento en la importancia de la administración de servicios y procesos de tecnología. Para ello, existe una variedad de marcos de trabajo, los más empleados son:
+    p.mb-5(data-aos="fade-up") La necesidad de innovación y transformación digital que cada vez más crece en las entidades crea un aumento en la importancia de la administración de servicios y procesos de tecnología. Para ello, existe una variedad de marcos de trabajo, los más empleados son:
     
-    TabsC.color-primario
+    TabsC.color-primario(data-aos="fade-up")
       .py-3.py-md-4(titulo="ITIL")
         .row.justify-content-center
           .col-6.col-md-4.mb-4.mb-md-0
@@ -183,12 +183,12 @@
             p Es la sigla en inglés de Project Management Book of Knowledge, en español Guía de los fundamentos para la dirección de proyectos. Es una de las referencias mejor calificadas en lo referente a la gestión de proyectos y cuya aplicabilidad en proyectos TI ha sido comprobada; esta metodología es a menudo aplicada en distintos sectores de la gestión de TI.
             p PMBOK divide cada proyecto en cinco fases: estructuración, planeación, implementación, mantenimiento y gestión, cada una de ellas con actividades y contextos definidos. El propósito es apoyar la estructuración, planeación, implementación y mantenimiento de los procesos de la gestión de proyectos.
 
-    Separador
+    Separador(data-aos="fade-up")
 
-    #1-4.titulo-segundo
+    #1-4.titulo-segundo(data-aos="fade-up")
       h2 1.4. Acuerdos de nivel de servicio
 
-    .float-layout-container.mb-5
+    .float-layout-container.mb-5(data-aos="fade-up")
       img.img-text.ms-3.mb-3(
         src='@/assets/curso/t1-img-03.jpg',
         alt='Texto que describa la imagen'
@@ -197,7 +197,7 @@
       p Cuando se elabora una propuesta técnica de un sistema para un cliente no basta con poner la descripción del producto, el costo, el tiempo de entrega, forma de pago, etc. También es importante agregar un ítem que describa cómo se clasifica el nivel servicio. 
       p A continuación, se presenta un ejemplo de clasificación del nivel de servicios. En la primera tabla se definen los tipos de incidencias o solicitudes de soporte y en la segunda, el nivel de atención para cada tipo de incidencia, con lo cual queda descrito un acuerdo de nivel de servicio dentro de la propuesta técnica para un sistema informático web.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-10
         .titulo-sexto.color-acento-contenido
           p.mb-0
@@ -219,9 +219,9 @@
               td.titulo Programada
               td(colspan="5") Hace referencia a una solicitud hecha por el director de tecnología o a quien delegue, donde el acceso a los servicios o herramientas no se ve afectado, pero es necesario programar alguna actividad de ajustes, cambios, parametrizaciones o actualizaciones.
 
-    p.mb-5 Toda incidencia o solicitud de soporte será evaluada y atendida de acuerdo con el medio de acceso y forma de asistencia, y al tiempo de respuesta, según la siguiente clasificación:
+    p.mb-5(data-aos="fade-up") Toda incidencia o solicitud de soporte será evaluada y atendida de acuerdo con el medio de acceso y forma de asistencia, y al tiempo de respuesta, según la siguiente clasificación:
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-up")
       .col-md-10
         .titulo-sexto.color-acento-contenido
           p.mb-0

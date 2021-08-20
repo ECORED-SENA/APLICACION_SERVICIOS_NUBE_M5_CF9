@@ -8,12 +8,12 @@
         span 2
       h1 Estado de costos
 
-    figure.mb-5.tarjeta
+    figure.mb-5.tarjeta(data-aos="fade-up")
       img(src='@/assets/curso/t2-img-01.jpg', alt='Texto que describa la imagen')
 
-    p.mb-5 Trabajar desde una oficina o desde casa requiere el uso de infraestructura tecnológica y servicios de TI. Los sistemas, dispositivos y servidores permiten a los operarios realizar sus funciones; cuando uno de los servicios o la infraestructura falla, o impide realizar las labores (a esto se denomina incidente), es la mesa de servicio la que interviene para realizar las actividades correctivas y las operaciones preventivas, con el fin de garantizar que no vuelva a ocurrir. Las mesas de servicio ofrecen una ruta claramente definida para que los usuarios al momento de informar solicitudes, consultas y problemas se puedan identificar, clasificar, apropiar y procesar. 
+    p.mb-5(data-aos="fade-up") Trabajar desde una oficina o desde casa requiere el uso de infraestructura tecnológica y servicios de TI. Los sistemas, dispositivos y servidores permiten a los operarios realizar sus funciones; cuando uno de los servicios o la infraestructura falla, o impide realizar las labores (a esto se denomina incidente), es la mesa de servicio la que interviene para realizar las actividades correctivas y las operaciones preventivas, con el fin de garantizar que no vuelva a ocurrir. Las mesas de servicio ofrecen una ruta claramente definida para que los usuarios al momento de informar solicitudes, consultas y problemas se puedan identificar, clasificar, apropiar y procesar. 
 
-    .float-layout-container.mb-5
+    .float-layout-container.mb-5(data-aos="fade-up")
       img.img-text(
         src='@/assets/curso/t1-img-03.jpg',
         alt='Texto que describa la imagen'
@@ -25,24 +25,24 @@
       p Según ITIL para establecer una mesa de servicio, independientemente del tamaño de la empresa, así sea una empresa grande, mediana, pequeña, unipersonal o un trabajador autónomo se deben implementar los pasos que se ilustran en la siguiente figura:
 
 
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="fade-up")
       p.mb-0
         b Figura 1. 
         | Pasos para establecer la mesa de ayuda
 
-    .tarjeta.tarjeta--gris.p-5
+    .tarjeta.tarjeta--gris.p-5(data-aos="fade-up")
       .row.justify-content-center
         .col-md-8
           BotonesB
 
-    Separador
+    Separador(data-aos="fade-up")
 
-    #2-1.titulo-segundo
+    #2-1.titulo-segundo(data-aos="fade-up")
       h2 2.1. Diagnóstico y preparación
 
-    p.mb-5 Antes de realizar la implementación de la mesa de servicio se debe proceder con un diagnóstico de la empresa, la cual puede ser o no unipersonal, o un trabajador autónomo. Dicho diagnóstico puede ser llevado a cabo mediante la  realización de entrevistas y aplicación de encuestas de satisfacción a los clientes, en donde se determinen las causas con sus respectivos problemas a soportar. Las causas con los problemas más comunes que estas generan se encuentran en la siguiente tabla: 
+    p.mb-5(data-aos="fade-up") Antes de realizar la implementación de la mesa de servicio se debe proceder con un diagnóstico de la empresa, la cual puede ser o no unipersonal, o un trabajador autónomo. Dicho diagnóstico puede ser llevado a cabo mediante la  realización de entrevistas y aplicación de encuestas de satisfacción a los clientes, en donde se determinen las causas con sus respectivos problemas a soportar. Las causas con los problemas más comunes que estas generan se encuentran en la siguiente tabla: 
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-up")
       .col-md-10
         .titulo-sexto.color-acento-contenido
           p.mb-0
@@ -127,14 +127,14 @@
                     i.lista-ul__vineta
                     | Cliente insatisfecho y desmotivado.
 
-    Separador
+    Separador(data-aos="fade-up")
 
-    #2-2.titulo-segundo
+    #2-2.titulo-segundo(data-aos="fade-up")
       h2 2.2. Definición de la estructura de servicios
     
-    p En este paso se garantiza la efectividad y eficacia en la provisión y el soporte de servicios, con el fin de generar valor para el cliente y el proveedor del servicio (Granizo, 2009).
+    p(data-aos="fade-up") En este paso se garantiza la efectividad y eficacia en la provisión y el soporte de servicios, con el fin de generar valor para el cliente y el proveedor del servicio (Granizo, 2009).
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-up")
       .col-md-10
         .bloque-texto-a.reverso.color-primario.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
@@ -170,19 +170,19 @@
                     i.lista-ul__vineta.item-amarillo
                     | Soporte a usuarios.
 
-    p.mb-5 Para cada uno de los servicios se debe especificar sus componentes, la relación de dependencia de uso y otros, por ejemplo, en la siguiente figura se muestra cómo para proveer ampliaciones se necesita que los sistemas tengan acceso a Internet y no cualquier servicio o tipo Internet, sino uno con unas particularidades específicas, tales como DNS, dirección IP pública, configuración de firewalls de seguridad,  proveedores de envío de correo (SMTP), etc.
+    p.mb-5(data-aos="fade-up") Para cada uno de los servicios se debe especificar sus componentes, la relación de dependencia de uso y otros, por ejemplo, en la siguiente figura se muestra cómo para proveer ampliaciones se necesita que los sistemas tengan acceso a Internet y no cualquier servicio o tipo Internet, sino uno con unas particularidades específicas, tales como DNS, dirección IP pública, configuración de firewalls de seguridad,  proveedores de envío de correo (SMTP), etc.
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-up")
       .col-md-8
         figure
           img(src='@/assets/curso/t2-info-01.svg', alt='Texto que describa la imagen')
 
-    Separador
+    Separador(data-aos="fade-up")
 
-    #2-3.titulo-segundo
+    #2-3.titulo-segundo(data-aos="fade-up")
       h2 2.3. Selección de roles y propietarios de roles
 
-    .float-layout-container.mb-5
+    .float-layout-container.mb-5(data-aos="fade-up")
       img.img-text.ms-3.mb-3(
         src='@/assets/curso/t2-01.jpg',
         alt='Texto que describa la imagen'
@@ -191,7 +191,7 @@
       P Los roles internos están representados por el personal de la empresa encargada de brindar el servicio de soporte y asesoramiento a los roles externos, que son los que realizan las peticiones o solicitudes y son conocidos como clientes o usuarios.
       P En las tablas que están a continuación, se muestran los roles internos y externos para los casos de soporte que puede prestar una empresa, que puede o no ser unipersonal o un trabajador autónomo.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-10
         .titulo-sexto.color-acento-contenido
           p.mb-0
@@ -249,7 +249,7 @@
                     i.lista-ul__vineta
                     | Solicitudes Nivel 4
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-10
         .titulo-sexto.color-acento-contenido
           p.mb-0
@@ -294,14 +294,14 @@
                     i.lista-ul__vineta
                     | Proveedor de infraestructura
 
-    p.mb-0 En una organización grande estos roles pueden ser complejos. También puede incrementar esta complejidad el número de clientes externos que tenga la empresa, por ejemplo, si se desea implementar un servicio de gestión de incidentes se debe nombrar un gestor de problemas (IT Process Wiki, 2021). 
+    p.mb-0(data-aos="fade-up") En una organización grande estos roles pueden ser complejos. También puede incrementar esta complejidad el número de clientes externos que tenga la empresa, por ejemplo, si se desea implementar un servicio de gestión de incidentes se debe nombrar un gestor de problemas (IT Process Wiki, 2021). 
 
-    Separador
+    Separador(data-aos="fade-up")
 
-    #2-4.titulo-segundo
+    #2-4.titulo-segundo(data-aos="fade-up")
       h2 2.4. Análisis de procesos existentes
 
-    .float-layout-container
+    .float-layout-container(data-aos="fade-up")
       img.img-text(
         src='@/assets/curso/pexels-pixabay-265087.jpg',
         alt='Texto que describa la imagen'
@@ -362,16 +362,16 @@
           i.lista-ul__vineta.item-verde
           | Los usuarios reclaman por el mal servicio y no se tienen registros de las quejas.
 
-    Separador
+    Separador(data-aos="fade-up")
 
-    #2-5.titulo-segundo
+    #2-5.titulo-segundo(data-aos="fade-up")
       h2 2.5. Definición de estructura de procesos
 
-    p Con el análisis de los procesos existentes y sus efectos en la empresa se puede identificar qué se debe estructurar para lograr su mejora. Por lo tanto, es necesario crear dos estructuras, una para los procesos internos de atención al usuario y otra para los acuerdos entre el proveedor del servicio – cliente, esto con el fin de  controlar el área de soporte y el manejo de incidentes, de tal manera que estas labores no interrumpan las tareas de desarrollo de nuevos productos de software.
-    p.mb-5 Un ejemplo de proceso interno es: 
+    p(data-aos="fade-up") Con el análisis de los procesos existentes y sus efectos en la empresa se puede identificar qué se debe estructurar para lograr su mejora. Por lo tanto, es necesario crear dos estructuras, una para los procesos internos de atención al usuario y otra para los acuerdos entre el proveedor del servicio – cliente, esto con el fin de  controlar el área de soporte y el manejo de incidentes, de tal manera que estas labores no interrumpan las tareas de desarrollo de nuevos productos de software.
+    p.mb-5(data-aos="fade-up") Un ejemplo de proceso interno es: 
 
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-up")
       .col-md-6.col-lg-5.mb-4
         .tarjeta.tarjeta-hover.color-acento-botones__claro.p-4(@mouseover='mostrarIndicador = false')
           .row.justify-content-center.mb-3
@@ -437,14 +437,14 @@
               alt='Texto que describa la imagen'
             )
 
-    Separador
+    Separador(data-aos="fade-up")
 
-    #2-6.titulo-segundo
+    #2-6.titulo-segundo(data-aos="fade-up")
       h2 2.6. Definición de interfaces de ITIL
 
-    p.mb-5 Las interfaces de procesos de incidentes son los canales de comunicación con el área de soporte, y pueden ser llevados a cabo telefónicamente, por correo electrónico, chats, plataformas web, entre otros; pero independiente de cuál sea el medio de entrada, las salidas serán comunes a todas las entradas, de modo que todo se reporte en un sitio centralizadamente.  En la tabla que está a continuación, se presentan las entradas y salidas más comunes del proceso.
+    p.mb-5(data-aos="fade-up") Las interfaces de procesos de incidentes son los canales de comunicación con el área de soporte, y pueden ser llevados a cabo telefónicamente, por correo electrónico, chats, plataformas web, entre otros; pero independiente de cuál sea el medio de entrada, las salidas serán comunes a todas las entradas, de modo que todo se reporte en un sitio centralizadamente.  En la tabla que está a continuación, se presentan las entradas y salidas más comunes del proceso.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-10
         .titulo-sexto.color-acento-contenido
           p.mb-0
@@ -495,9 +495,9 @@
                     i.lista-ul__vineta.item-verde
                     | Reporte de oportunidad de atención.
 
-    p.mb-5 Una vez identificada la entrada es importante definir la clasificación del incidente como lo indica la escala básica enunciada en la tabla 7: 
+    p.mb-5(data-aos="fade-up") Una vez identificada la entrada es importante definir la clasificación del incidente como lo indica la escala básica enunciada en la tabla 7: 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-10
         .titulo-sexto.color-acento-contenido
           p.mb-0
@@ -518,15 +518,15 @@
               td.text-bold Programada
               td(colspan="4") Hace referencia a una solicitud hecha por el director de tecnología o a quien delegue, donde el acceso a los servicios o herramientas no se ve afectado, pero es necesario programar alguna actividad de ajustes, cambios, parametrizaciones o actualizaciones.
 
-    .float-layout-container
+    .float-layout-container(data-aos="fade-up")
       img.img-text.ms-3.mb-3.w-50(
         src='@/assets/curso/t2-02.jpg',
         alt='Texto que describa la imagen'
       )
 
-      p Los incidentes también se clasifican por tipo de solicitud:
+      p(data-aos="fade-up") Los incidentes también se clasifican por tipo de solicitud:
 
-      ul.list-ul
+      ul.list-ul(data-aos="fade-up")
         li.mb-2
           i.lista-ul__vineta.item-verde
           | Falla general del sistema.
@@ -548,14 +548,14 @@
 
       p.mb-0 La escala básica y los tipos de solicitud de incidencias permiten contar con  reportes para identificar los aspectos que más fallas registran y proceder con la mejora del servicio.
 
-    Separador
+    Separador(data-aos="fade-up")
 
-    #2-7.titulo-segundo
+    #2-7.titulo-segundo(data-aos="fade-up")
       h2 2.7. Establecimiento de controles
 
-    p.mb-5 En este paso se definen los controles y el tiempo de su aplicación en la mesa de servicio, con el fin realizar seguimiento al cumplimiento de los procesos internos de atención al usuario y a los acuerdos entre el proveedor del servicio – cliente, que permitan mejorar el servicio. Algunos ejemplos de controles son:
+    p.mb-5(data-aos="fade-up") En este paso se definen los controles y el tiempo de su aplicación en la mesa de servicio, con el fin realizar seguimiento al cumplimiento de los procesos internos de atención al usuario y a los acuerdos entre el proveedor del servicio – cliente, que permitan mejorar el servicio. Algunos ejemplos de controles son:
 
-    .cajon.color-acento-botones.p-4.mb-4
+    .cajon.color-acento-botones.p-4.mb-4(data-aos="fade-up")
       ul.list-ul.mb-0
         li.mb-2
           i.lista-ul__vineta.item-verde
@@ -567,9 +567,9 @@
           i.lista-ul__vineta.item-verde
           | Revisión trimestral del tipo de falla que más reporta incidencias para establecer un plan de mejora sobre el servicio.
 
-    p.mb-5 Para materializar esos controles se deben utilizar los indicadores de gestión, los cuales van a estar definidos por los incidentes resueltos y sin resolver, tal como se describe en la siguiente tabla: 
+    p.mb-5(data-aos="fade-up") Para materializar esos controles se deben utilizar los indicadores de gestión, los cuales van a estar definidos por los incidentes resueltos y sin resolver, tal como se describe en la siguiente tabla: 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-10
         .titulo-sexto.color-acento-contenido
           p.mb-0
@@ -604,16 +604,16 @@
               td
                 | Cantidad de incidentes que se resolvieron por fuera del tiempo acordado con el cliente.
 
-    p.mb-0 Los anteriores indicadores no son los únicos, es posible que con la implementación y ejecución de los servicios se evidencian otros, según la dinámica del servicio.
+    p.mb-0(data-aos="fade-up") Los anteriores indicadores no son los únicos, es posible que con la implementación y ejecución de los servicios se evidencian otros, según la dinámica del servicio.
 
-    Separador
+    Separador(data-aos="fade-up")
 
-    #2-8.titulo-segundo
+    #2-8.titulo-segundo(data-aos="fade-up")
       h2 2.8. Diseño de los procesos
 
-    p.mb-5 Generalmente, en el diseño de procesos de gestión de incidentes deben existir al menos cuatro niveles: 
+    p.mb-5(data-aos="fade-up") Generalmente, en el diseño de procesos de gestión de incidentes deben existir al menos cuatro niveles: 
 
-    TabsA.color-acento-botones.mb-5
+    TabsA.color-acento-botones.mb-5(data-aos="fade-up")
       .tarjeta.color-acento-botones__claro.p-4(titulo="Nivel 1")
         .row.justify-content-center.align-items-center
           .col-6.col-md-2.mb-4.mb-md-0
@@ -652,9 +652,9 @@
           .col-md
             p.mb-0 Cuando la solicitud no es una falla y atiende a un requerimiento que el sistema actual no tiene, indica que se debe intervenir con el desarrollo de nueva funcionalidad o modificación de la función actual.
 
-    p.mb-5 La siguiente figura muestra un ejemplo del modelo de proceso que debe ser documentado y ampliado para los subprocesos de escalado a nivel 3 y 4.
+    p.mb-5(data-aos="fade-up") La siguiente figura muestra un ejemplo del modelo de proceso que debe ser documentado y ampliado para los subprocesos de escalado a nivel 3 y 4.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-8
         .titulo-sexto.color-acento-contenido
           p.mb-0
@@ -665,16 +665,16 @@
           alt='Texto que describa la imagen'
         )
 
-    p.mb-0 A medida que se van implementando los anteriores procesos se pueden ir modificando las acciones y modelos, de tal forma que se adapten cada vez más a la satisfacción de las necesidades del cliente.
+    p.mb-0(data-aos="fade-up") A medida que se van implementando los anteriores procesos se pueden ir modificando las acciones y modelos, de tal forma que se adapten cada vez más a la satisfacción de las necesidades del cliente.
 
-    Separador
+    Separador(data-aos="fade-up")
 
-    #2-9.titulo-segundo
+    #2-9.titulo-segundo(data-aos="fade-up")
       h2 2.9. Selección e implementación de sistemas
 
-    p.mb-5 En el mercado existen muchas herramientas de pago y gratuitas, las cuales pueden ser seleccionadas según la necesidad. En la siguiente figura se muestra algunas de las herramientas de pago con sus diferentes características:
+    p.mb-5(data-aos="fade-up") En el mercado existen muchas herramientas de pago y gratuitas, las cuales pueden ser seleccionadas según la necesidad. En la siguiente figura se muestra algunas de las herramientas de pago con sus diferentes características:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-10
         .titulo-sexto.color-acento-contenido
           p.mb-0
@@ -687,9 +687,9 @@
           )
           figcaption Nota. Tomado de Bonillaware (2021). https://www.bonillaware.com/wp-content/uploads/comparativa_helpdesk.png
 
-    p.mb-5 En el mercado existen muchas herramientas de pago y gratuitas, las cuales pueden ser seleccionadas según la necesidad. En la siguiente figura se muestra algunas de las herramientas de pago con sus diferentes características:
+    p.mb-5(data-aos="fade-up") En el mercado existen muchas herramientas de pago y gratuitas, las cuales pueden ser seleccionadas según la necesidad. En la siguiente figura se muestra algunas de las herramientas de pago con sus diferentes características:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-10
         .titulo-sexto.color-acento-contenido
           p.mb-0
@@ -719,14 +719,14 @@
               td
                 a(href="https://netbox.readthedocs.io/en/stable/" target="_blank") https://netbox.readthedocs.io/en/stable/
 
-    p.mb-0 Al igual que en el listado de Servidores desk software de pago, los Servidores desk software Open Source no pago presentan características propias, las cuales pueden satisfacer diferentes necesidades de la empresa prestadora del servicio y a sus clientes.
+    p.mb-0(data-aos="fade-up") Al igual que en el listado de Servidores desk software de pago, los Servidores desk software Open Source no pago presentan características propias, las cuales pueden satisfacer diferentes necesidades de la empresa prestadora del servicio y a sus clientes.
 
-    Separador
+    Separador(data-aos="fade-up")
 
-    #2-10.titulo-segundo
+    #2-10.titulo-segundo(data-aos="fade-up")
       h2 2.10. Implementación de procesos y capacitación
 
-    .float-layout-container.mb-5
+    .float-layout-container.mb-5(data-aos="fade-up")
       img.img-text(
         src='@/assets/curso/designers-consulting.jpg',
         alt='Texto que describa la imagen'
@@ -737,7 +737,7 @@
 
       p En la siguiente figura se ofrece un ejemplo de una de las herramientas de soporte Open Source, llamada osTicket  en algunos de sus componentes de interfaz gráfica:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-8
         .titulo-sexto.color-acento-contenido
           p.mb-0
@@ -750,7 +750,7 @@
           )
           figcaption Nota. Tomado de https://soporte.cloudsenactpi.net
     
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-up")
       .col-md-10
         .bloque-texto-a.reverso.color-primario.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
@@ -769,7 +769,7 @@
                     i.lista-ul__vineta.item-amarillo
                     | Control de tareas y actividades.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-8
         .titulo-sexto.color-acento-contenido
           p.mb-0
@@ -782,9 +782,9 @@
           )
           figcaption Nota. Tomado de https://soporte.cloudsenactpi.net 
 
-    p.mb-5 Como se puede observar en la siguiente figura el sistema seleccionado maneja acuerdos de nivel de servicio (SLA), configurables.
+    p.mb-5(data-aos="fade-up") Como se puede observar en la siguiente figura el sistema seleccionado maneja acuerdos de nivel de servicio (SLA), configurables.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-8
         .titulo-sexto.color-acento-contenido
           p.mb-0
@@ -797,7 +797,7 @@
           )
           figcaption Nota. Tomado de https://soporte.cloudsenactpi.net 
 
-    .float-layout-container
+    .float-layout-container(data-aos="fade-up")
       img.img-text.ms-3.mb-3(
         src='@/assets/curso/imagen4.jpg',
         alt='Texto que describa la imagen'
