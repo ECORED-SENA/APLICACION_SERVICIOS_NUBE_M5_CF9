@@ -44,7 +44,7 @@
               alt='Texto que describa la imagen'
             )
         .col
-          p.mb-0 la información es muy importante para las empresas de cualquier sector. La gestión eficaz de TI también se encarga de velar por la ejecución operativa de muchos de los controles de seguridad informática.
+          p.mb-0 La información es muy importante para las empresas de cualquier sector. La gestión eficaz de TI también se encarga de velar por la ejecución operativa de muchos de los controles de seguridad informática.
 
       .row.align-items-center(
         titulo='Más calidad en la relación con los clientes'
@@ -56,7 +56,7 @@
               alt='Texto que describa la imagen'
             )
         .col
-          p.mb-0 permite establecer mejores y diferentes canales de atención al cliente o usuario. La tendencia es que estos canales se integren, por ejemplo, si un cliente entró en contacto vía e-mail o por WhatsApp y, luego decide llamar a la empresa para el mismo caso se espera que no necesite repetir todas las informaciones que dio en el primer contacto. De esta forma, una gestión de TI efectiva hace que desde cualquier área de la empresa se tenga acceso a la información importante para la atención que los usuarios esperan.
+          p.mb-0 Permite establecer mejores y diferentes canales de atención al cliente o usuario. La tendencia es que estos canales se integren, por ejemplo, si un cliente entró en contacto vía e-mail o por WhatsApp y, luego decide llamar a la empresa para el mismo caso se espera que no necesite repetir todas las informaciones que dio en el primer contacto. De esta forma, una gestión de TI efectiva hace que desde cualquier área de la empresa se tenga acceso a la información importante para la atención que los usuarios esperan.
 
       .row.align-items-center(titulo='Optimización de procesos')
         .col-3.col-md-2.col-xl-1.mb-4.mb-md-0
@@ -66,7 +66,7 @@
               alt='Texto que describa la imagen'
             )
         .col
-          p.mb-0 cuando la entidad no está usando el software adecuado o no ha mejorado sus procesos adaptando nuevas tecnologías, esto hace que la empresa esté atrasada frente al mercado en el sector económico al que pertenece. La gestión de TI puede ahorrar tiempo y dinero adoptando nuevas tecnologías en los procesos de la entidad, a la vez que la impulsa en su crecimiento.
+          p.mb-0 Cuando la entidad no está usando el software adecuado o no ha mejorado sus procesos adaptando nuevas tecnologías, esto hace que la empresa esté atrasada frente al mercado en el sector económico al que pertenece. La gestión de TI puede ahorrar tiempo y dinero adoptando nuevas tecnologías en los procesos de la entidad, a la vez que la impulsa en su crecimiento.
 
       .row.align-items-center(titulo='Reducción de costos')
         .col-3.col-md-2.col-xl-1.mb-4.mb-md-0
@@ -76,7 +76,7 @@
               alt='Texto que describa la imagen'
             )
         .col
-          p.mb-0 hace que los procesos puedan ser innovados constantemente, adoptando nuevas o mejores herramientas de hardware y software que optimicen los procesos de negocio haciendo a la empresa más productiva, debido a la reducción de costos o maximización de ganancias.
+          p.mb-0 Hace que los procesos puedan ser innovados constantemente, adoptando nuevas o mejores herramientas de hardware y software que optimicen los procesos de negocio haciendo a la empresa más productiva, debido a la reducción de costos o maximización de ganancias.
 
       .row.align-items-center(titulo='Identificar nuevas oportunidades')
         .col-3.col-md-2.col-xl-1.mb-4.mb-md-0
@@ -86,12 +86,12 @@
               alt='Texto que describa la imagen'
             )
         .col
-          p.mb-0 posibilita saber en qué momento los clientes o usuarios cambian a un nuevo perfil para actualizar los servicios tecnológicos. Por tanto, se puede identificar el punto para ofrecer productos complementarios o nuevos servicios TI.
+          p.mb-0 Posibilita saber en qué momento los clientes o usuarios cambian a un nuevo perfil para actualizar los servicios tecnológicos. Por tanto, se puede identificar el punto para ofrecer productos complementarios o nuevos servicios TI.
 
     Separador(data-aos="fade-up")
 
-    #1-1.titulo-segundo(data-aos="fade-up")
-      h2 1.2. ¿Cómo y cuándo empezar la gestión de TI?
+    #1-2.titulo-segundo(data-aos="fade-up")
+      h2 1.2 ¿Cómo y cuándo empezar la gestión de TI?
 
     .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-8
@@ -99,9 +99,9 @@
           .row.align-items-center.justify-content-between
             .col-lg-8.mb-4.mb-lg-0
               .bloque-texto-a__texto.p-4
-                p.mb-0 Muchos especialistas están de acuerdo en responder a la pregunta
+                p.mb-0 Muchos especialistas están de acuerdo en responder a la pregunta 
                   b “¿cuándo es el momento de implementar la gestión de TI?”
-                  | , y la respuesta es
+                  | , y la respuesta es 
                   b “lo antes posible”
                   | , desde el principio de ser posible.
             .col-lg-4
@@ -129,8 +129,8 @@
           .indicador--hover(v-if='mostrarIndicador')
           .img-hover__content.p-4
             p.mb-0.text-center
-              b Estudiar las guías de buenas prácticas de TI:
-              | Accediendo a las librerías de buenas prácticas.
+              b Estudiar las guías de buenas prácticas de TI: 
+              | accediendo a las librerías de buenas prácticas.
 
       .col-md-6.col-lg-5
         .img-hover(@mouseover='mostrarIndicador = false')
@@ -149,7 +149,7 @@
     Separador(data-aos="fade-up")
 
     #1-3.titulo-segundo(data-aos="fade-up")
-      h2 1.3. Buenas prácticas en la gestión de TI
+      h2 1.3 Buenas prácticas en la gestión de TI
 
     p.mb-5(data-aos="fade-up") La necesidad de innovación y transformación digital que cada vez más crece en las entidades crea un aumento en la importancia de la administración de servicios y procesos de tecnología. Para ello, existe una variedad de marcos de trabajo, los más empleados son:
     
@@ -186,7 +186,7 @@
     Separador(data-aos="fade-up")
 
     #1-4.titulo-segundo(data-aos="fade-up")
-      h2 1.4. Acuerdos de nivel de servicio
+      h2 1.4 Acuerdos de nivel de servicio
 
     .float-layout-container.mb-5(data-aos="fade-up")
       img.img-text.ms-3.mb-3(

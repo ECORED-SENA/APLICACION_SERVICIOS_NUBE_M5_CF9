@@ -38,7 +38,7 @@
     Separador(data-aos="fade-up")
 
     #2-1.titulo-segundo(data-aos="fade-up")
-      h2 2.1. Diagnóstico y preparación
+      h2 2.1 Diagnóstico y preparación
 
     p.mb-5(data-aos="fade-up") Antes de realizar la implementación de la mesa de servicio se debe proceder con un diagnóstico de la empresa, la cual puede ser o no unipersonal, o un trabajador autónomo. Dicho diagnóstico puede ser llevado a cabo mediante la  realización de entrevistas y aplicación de encuestas de satisfacción a los clientes, en donde se determinen las causas con sus respectivos problemas a soportar. Las causas con los problemas más comunes que estas generan se encuentran en la siguiente tabla: 
 
@@ -130,7 +130,7 @@
     Separador(data-aos="fade-up")
 
     #2-2.titulo-segundo(data-aos="fade-up")
-      h2 2.2. Definición de la estructura de servicios
+      h2 2.2 Definición de la estructura de servicios
     
     p(data-aos="fade-up") En este paso se garantiza la efectividad y eficacia en la provisión y el soporte de servicios, con el fin de generar valor para el cliente y el proveedor del servicio (Granizo, 2009).
 
@@ -180,7 +180,7 @@
     Separador(data-aos="fade-up")
 
     #2-3.titulo-segundo(data-aos="fade-up")
-      h2 2.3. Selección de roles y propietarios de roles
+      h2 2.3 Selección de roles y propietarios de roles
 
     .float-layout-container.mb-5(data-aos="fade-up")
       img.img-text.ms-3.mb-3(
@@ -299,7 +299,7 @@
     Separador(data-aos="fade-up")
 
     #2-4.titulo-segundo(data-aos="fade-up")
-      h2 2.4. Análisis de procesos existentes
+      h2 2.4 Análisis de procesos existentes
 
     .float-layout-container(data-aos="fade-up")
       img.img-text(
@@ -307,7 +307,7 @@
         alt='Texto que describa la imagen'
       )
       p ITIL recomienda elaborar una evaluación enfocada en los procesos existentes, para lo cual se recomienda aplicar instrumentos de medidas como encuestas, que permitan validar aspectos de la prestación del servicio de soporte, basados en los siguientes criterios:
-      .cajon.d-inline-block.color-acento-botones.p-4
+      .cajon.d-inline-block.color-acento-botones.py-3.px-4
         ul.list-ul.mb-0
           li
             i.lista-ul__vineta.item-verde
@@ -365,7 +365,7 @@
     Separador(data-aos="fade-up")
 
     #2-5.titulo-segundo(data-aos="fade-up")
-      h2 2.5. Definición de estructura de procesos
+      h2 2.5 Definición de estructura de procesos
 
     p(data-aos="fade-up") Con el análisis de los procesos existentes y sus efectos en la empresa se puede identificar qué se debe estructurar para lograr su mejora. Por lo tanto, es necesario crear dos estructuras, una para los procesos internos de atención al usuario y otra para los acuerdos entre el proveedor del servicio – cliente, esto con el fin de  controlar el área de soporte y el manejo de incidentes, de tal manera que estas labores no interrumpan las tareas de desarrollo de nuevos productos de software.
     p.mb-5(data-aos="fade-up") Un ejemplo de proceso interno es: 
@@ -440,7 +440,7 @@
     Separador(data-aos="fade-up")
 
     #2-6.titulo-segundo(data-aos="fade-up")
-      h2 2.6. Definición de interfaces de ITIL
+      h2 2.6 Definición de interfaces de ITIL
 
     p.mb-5(data-aos="fade-up") Las interfaces de procesos de incidentes son los canales de comunicación con el área de soporte, y pueden ser llevados a cabo telefónicamente, por correo electrónico, chats, plataformas web, entre otros; pero independiente de cuál sea el medio de entrada, las salidas serán comunes a todas las entradas, de modo que todo se reporte en un sitio centralizadamente.  En la tabla que está a continuación, se presentan las entradas y salidas más comunes del proceso.
 
@@ -551,7 +551,7 @@
     Separador(data-aos="fade-up")
 
     #2-7.titulo-segundo(data-aos="fade-up")
-      h2 2.7. Establecimiento de controles
+      h2 2.7 Establecimiento de controles
 
     p.mb-5(data-aos="fade-up") En este paso se definen los controles y el tiempo de su aplicación en la mesa de servicio, con el fin realizar seguimiento al cumplimiento de los procesos internos de atención al usuario y a los acuerdos entre el proveedor del servicio – cliente, que permitan mejorar el servicio. Algunos ejemplos de controles son:
 
@@ -609,7 +609,7 @@
     Separador(data-aos="fade-up")
 
     #2-8.titulo-segundo(data-aos="fade-up")
-      h2 2.8. Diseño de los procesos
+      h2 2.8 Diseño de los procesos
 
     p.mb-5(data-aos="fade-up") Generalmente, en el diseño de procesos de gestión de incidentes deben existir al menos cuatro niveles: 
 
@@ -670,7 +670,7 @@
     Separador(data-aos="fade-up")
 
     #2-9.titulo-segundo(data-aos="fade-up")
-      h2 2.9. Selección e implementación de sistemas
+      h2 2.9 Selección e implementación de sistemas
 
     p.mb-5(data-aos="fade-up") En el mercado existen muchas herramientas de pago y gratuitas, las cuales pueden ser seleccionadas según la necesidad. En la siguiente figura se muestra algunas de las herramientas de pago con sus diferentes características:
 
@@ -724,7 +724,7 @@
     Separador(data-aos="fade-up")
 
     #2-10.titulo-segundo(data-aos="fade-up")
-      h2 2.10. Implementación de procesos y capacitación
+      h2 2.10 Implementación de procesos y capacitación
 
     .float-layout-container.mb-5(data-aos="fade-up")
       img.img-text(
