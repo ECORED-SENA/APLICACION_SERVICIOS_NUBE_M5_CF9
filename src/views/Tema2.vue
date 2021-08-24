@@ -6,7 +6,7 @@
     #t2.titulo-principal(data-aos="flip-up")
       .titulo-principal__numero
         span 2
-      h1 Estado de costos
+      h1 Mesa de servicio
 
     figure.mb-5.tarjeta(data-aos="fade-up")
       img(src='@/assets/curso/t2-img-01.jpg', alt='Texto que describa la imagen')
@@ -48,84 +48,84 @@
           p.mb-0
             b Tabla 3. 
             | Causas y problemas más comunes
+        .tabla.tabla--intercalada
+          table
+            thead
+              tr
+                th Causa
+                th Problemas generados
+            tbody
+              tr
+                td La recepción de los incidentes tiene varios canales de acceso, <em>e-mail</em>, WhatsApp, celular etc.
+                td(rowspan="4") 
+                  ul.lista-ul.mb-0
+                    li 
+                      i.lista-ul__vineta.item-verde
+                      | El cliente se queja por la indisponibilidad del servicio.
+                    li
+                      i.lista-ul__vineta.item-verde
+                      | El soporte que se brinda no es el adecuado.
+                    li
+                      i.lista-ul__vineta.item-verde
+                      | El servicio postventa hace que el producto o servicio pierda valor.
+                    li
+                      i.lista-ul__vineta.item-verde
+                      | Atención desordenada de incidentes.
+                    li
+                      i.lista-ul__vineta.item-verde
+                      | Incidentes que no se resuelven o se resuelven inoportunamente.
 
-        table.tabla
-          thead
-            tr
-              th Causa
-              th Problemas generados
-          tbody
-            tr
-              td La recepción de los incidentes tiene varios canales de acceso, e-mail, WhatsApp, celular etc.
-              td(rowspan="4") 
-                ul.lista-ul.mb-0
-                  li 
-                    i.lista-ul__vineta
-                    | El cliente se queja por la indisponibilidad del servicio.
-                  li
-                    i.lista-ul__vineta
-                    | El soporte que se brinda no es el adecuado.
-                  li
-                    i.lista-ul__vineta
-                    | El servicio postventa hace que el producto o servicio pierda valor.
-                  li
-                    i.lista-ul__vineta
-                    | Atención desordenada de incidentes.
-                  li
-                    i.lista-ul__vineta
-                    | Incidentes que no se resuelven o se resuelven inoportunamente.
+              tr
+                td Dificultad en la comunicación con el usuario final que reporta el problema.
+              tr
+                td Olvido o descuido en comunicar los incidentes reportados.
+              tr
+                td Desorden en el manejo del tiempo y falta de orden de prioridades de los incidentes reportados.
+              tr
+                td No se capacita adecuadamente al nuevo personal y a los nuevos clientes.
+                td(rowspan="3")
+                  ul.lista-ul.mb-0
+                    li
+                      i.lista-ul__vineta.item-verde
+                      | Sobrecarga operativa de soporte.
+                    li
+                      i.lista-ul__vineta.item-verde
+                      | Insatisfacción del cliente a razón de soluciones temporales. 
+                    li
+                      i.lista-ul__vineta.item-verde
+                      | La imagen del proveedor TI se debilita frente al cliente.
+                    li
+                      i.lista-ul__vineta.item-verde
+                      | El cliente se acostumbra a no seguir el conducto regular definido para resolver incidencias.
 
-            tr
-              td Dificultad en la comunicación con el usuario final que reporta el problema.
-            tr
-              td Olvido o descuido en comunicar los incidentes reportados.
-            tr
-              td Desorden en el manejo del tiempo y falta de orden de prioridades de los incidentes reportados.
-            tr
-              td No se capacita adecuadamente al nuevo personal y a los nuevos clientes.
-              td(rowspan="3")
-                ul.lista-ul.mb-0
-                  li
-                    i.lista-ul__vineta
-                    | Sobrecarga operativa de soporte.
-                  li
-                    i.lista-ul__vineta
-                    | Insatisfacción del cliente a razón de soluciones temporales. 
-                  li
-                    i.lista-ul__vineta
-                    | La imagen del proveedor TI se debilita frente al cliente.
-                  li
-                    i.lista-ul__vineta
-                    | El cliente se acostumbra a no seguir el conducto regular definido para resolver incidencias.
+              tr
+                td Se improvisa constantemente en la atención del incidente.
+              tr
+                td Soporte de requerimientos que están fuera de la solicitud inicial o el alcance del sistema y esto dilata el tiempo asignado para dicho soporte.
+              tr
+                td Reuniones no programadas.
+                td 
+                  ul.lista-ul.mb-0
+                    li
+                      i.lista-ul__vineta.item-verde
+                      | Pérdida de tiempo.
+                    li
+                      i.lista-ul__vineta.item-verde
+                      | Las reuniones derivan en temas no enfocados o definidos.
 
-            tr
-              td Se improvisa constantemente en la atención del incidente.
-            tr
-              td Soporte de requerimientos que están fuera de la solicitud inicial o el alcance del sistema y esto dilata el tiempo asignado para dicho soporte.
-            tr
-              td Reuniones no programadas.
-              td 
-                ul.lista-ul.mb-0
-                  li
-                    i.lista-ul__vineta
-                    | Pérdida de tiempo.
-                  li
-                    i.lista-ul__vineta
-                    | Las reuniones derivan en temas no enfocados o definidos.
-
-            tr
-              td Suspender trabajos que están marchando para asumir nuevos incidentes.
-              td
-                ul.lista-ul.mb-0
-                  li
-                    i.lista-ul__vineta
-                    | Se crea una cultura de incumplimiento e irresponsabilidad por parte del proveedor de TI en el quehacer cotidiano de sus labores.
-                  li
-                    i.lista-ul__vineta
-                    | Se crea la costumbre de pedir disculpas por el incumplimiento.
-                  li
-                    i.lista-ul__vineta
-                    | Cliente insatisfecho y desmotivado.
+              tr
+                td Suspender trabajos que están marchando para asumir nuevos incidentes.
+                td
+                  ul.lista-ul.mb-0
+                    li
+                      i.lista-ul__vineta.item-verde
+                      | Se crea una cultura de incumplimiento e irresponsabilidad por parte del proveedor de TI en el quehacer cotidiano de sus labores.
+                    li
+                      i.lista-ul__vineta.item-verde
+                      | Se crea la costumbre de pedir disculpas por el incumplimiento.
+                    li
+                      i.lista-ul__vineta.item-verde
+                      | Cliente insatisfecho y desmotivado.
 
     Separador(data-aos="fade-up")
 
@@ -170,10 +170,15 @@
                     i.lista-ul__vineta.item-amarillo
                     | Soporte a usuarios.
 
-    p.mb-5(data-aos="fade-up") Para cada uno de los servicios se debe especificar sus componentes, la relación de dependencia de uso y otros, por ejemplo, en la siguiente figura se muestra cómo para proveer ampliaciones se necesita que los sistemas tengan acceso a Internet y no cualquier servicio o tipo Internet, sino uno con unas particularidades específicas, tales como DNS, dirección IP pública, configuración de firewalls de seguridad,  proveedores de envío de correo (SMTP), etc.
+    p.mb-5(data-aos="fade-up") Para cada uno de los servicios se debe especificar sus componentes, la relación de dependencia de uso y otros, por ejemplo, en la siguiente figura se muestra cómo para proveer ampliaciones se necesita que los sistemas tengan acceso a Internet y no cualquier servicio o tipo Internet, sino uno con unas particularidades específicas, tales como DNS, dirección IP pública, configuración de <em>firewalls</em> de seguridad,  proveedores de envío de correo (SMTP), etc.
 
     .row.justify-content-center(data-aos="fade-up")
       .col-md-8
+        .titulo-sexto.color-acento-contenido
+          p.mb-0
+            b Figura 2. 
+            | Estructura de servicios
+
         figure
           img(src='@/assets/curso/t2-info-01.svg', alt='Texto que describa la imagen')
 
@@ -198,56 +203,57 @@
             b Tabla 4. 
             | Roles internos
 
-        table.tabla
-          thead
-            tr
-              th Cargo
-              th Propietario
-              th Rol ITIL
-          tbody
-            tr
-              td Gerente de soporte
-              td Nombre completo
-              td Monitorización y control
-            tr
-              td Soporte Senior
-              td Nombre completo
-              td 
-                ul.lista-ul.mb-0
-                  li
-                    i.lista-ul__vineta
-                    | Gestor de incidencias
-                  li
-                    i.lista-ul__vineta
-                    | Peticiones, problemas Nivel 2 
-                  li.mb-0
-                    i.lista-ul__vineta
-                    | Centro de servicio al usuario
-            tr
-              td Soporte Junior
-              td Nombre completo
-              td
-                ul.lista-ul.mb-0
-                  li
-                    i.lista-ul__vineta
-                    | Gestor de incidencias
-                  li
-                    i.lista-ul__vineta
-                    | Peticiones
-                  li
-                    i.lista-ul__vineta
-                    | Problemas Nivel 1
-                  li.mb-0
-                    i.lista-ul__vineta
-                    | Centro de servicio al usuario
-            tr
-              td Área desarrollo
-              td Nombre completo
-              td
-                ul.lista-ul.mb-0
-                  li.mb-0
-                    i.lista-ul__vineta
-                    | Solicitudes Nivel 4
+        .tabla.tabla--intercalada
+          table
+            thead
+              tr
+                th Cargo
+                th Propietario
+                th Rol ITIL
+            tbody
+              tr
+                td Gerente de soporte
+                td Nombre completo
+                td Monitorización y control
+              tr
+                td Soporte Senior
+                td Nombre completo
+                td 
+                  ul.lista-ul.mb-0
+                    li
+                      i.lista-ul__vineta
+                      | Gestor de incidencias
+                    li
+                      i.lista-ul__vineta
+                      | Peticiones, problemas Nivel 2 
+                    li.mb-0
+                      i.lista-ul__vineta
+                      | Centro de servicio al usuario
+              tr
+                td Soporte Junior
+                td Nombre completo
+                td
+                  ul.lista-ul.mb-0
+                    li
+                      i.lista-ul__vineta
+                      | Gestor de incidencias
+                    li
+                      i.lista-ul__vineta
+                      | Peticiones
+                    li
+                      i.lista-ul__vineta
+                      | Problemas Nivel 1
+                    li.mb-0
+                      i.lista-ul__vineta
+                      | Centro de servicio al usuario
+              tr
+                td Área desarrollo
+                td Nombre completo
+                td
+                  ul.lista-ul.mb-0
+                    li.mb-0
+                      i.lista-ul__vineta
+                      | Solicitudes Nivel 4
 
     .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-10
@@ -256,45 +262,46 @@
             b Tabla 5. 
             | Roles externos
 
-        table.tabla
-          thead
-            tr
-              th Propietario
-              th Rol ITIL
+        .tabla.tabla--intercalada
+          table
+            thead
+              tr
+                th Propietario
+                th Rol ITIL
 
-          tbody
-            tr
-              td Droguería + salud
-              td 
-                ul.lista-ul.mb-0
-                  li
-                    i.lista-ul__vineta
-                    | Cliente
-                  li.mb-0
-                    i.lista-ul__vineta
-                    | Usuario
-            tr
-              td Dr. Manuel Parra
-              td 
-                ul.lista-ul.mb-0
-                  li
-                    i.lista-ul__vineta
-                    | Cliente
-                  li.mb-0
-                    i.lista-ul__vineta
-                    | Usuario
-            tr
-              td Amazon Web Services
-              td 
-                ul.lista-ul.mb-0
-                  li
-                    i.lista-ul__vineta
-                    | Soporte Nivel 3
-                  li.mb-0
-                    i.lista-ul__vineta
-                    | Proveedor de infraestructura
+            tbody
+              tr
+                td Droguería + salud
+                td 
+                  ul.lista-ul.mb-0
+                    li
+                      i.lista-ul__vineta
+                      | Cliente
+                    li.mb-0
+                      i.lista-ul__vineta
+                      | Usuario
+              tr
+                td Dr. Manuel Parra
+                td 
+                  ul.lista-ul.mb-0
+                    li
+                      i.lista-ul__vineta
+                      | Cliente
+                    li.mb-0
+                      i.lista-ul__vineta
+                      | Usuario
+              tr
+                td Amazon Web Services
+                td 
+                  ul.lista-ul.mb-0
+                    li
+                      i.lista-ul__vineta
+                      | Soporte Nivel 3
+                    li.mb-0
+                      i.lista-ul__vineta
+                      | Proveedor de infraestructura
 
-    p.mb-0(data-aos="fade-up") En una organización grande estos roles pueden ser complejos. También puede incrementar esta complejidad el número de clientes externos que tenga la empresa, por ejemplo, si se desea implementar un servicio de gestión de incidentes se debe nombrar un gestor de problemas (IT Process Wiki, 2021). 
+    p.mb-0(data-aos="fade-up") En una organización grande estos roles pueden ser complejos. También puede incrementar esta complejidad el número de clientes externos que tenga la empresa, por ejemplo, si se desea implementar un servicio de gestión de incidentes se debe nombrar un gestor de problemas (<em>IT Process Wiki, 2021</em>). 
 
     Separador(data-aos="fade-up")
 
@@ -308,7 +315,7 @@
       )
       p ITIL recomienda elaborar una evaluación enfocada en los procesos existentes, para lo cual se recomienda aplicar instrumentos de medidas como encuestas, que permitan validar aspectos de la prestación del servicio de soporte, basados en los siguientes criterios:
       .cajon.d-inline-block.color-acento-botones.py-3.px-4
-        ul.list-ul.mb-0
+        ul.lista-ul.mb-0
           li
             i.lista-ul__vineta.item-verde
             | Gestión de capacidad el proceso.
@@ -330,10 +337,10 @@
 
       p En caso tal, que como resultado de la aplicación del instrumento anterior se encuentren hallazgos similares o iguales a estos: 
 
-      ul.list-ul.mb-0
+      ul.lista-ul.mb-0
         li
           i.lista-ul__vineta.item-verde
-          | Poca rapidez en la gestión de las incidencias, porque no cuenta con una bitácora automatizada, en la que se registre el estado de cada una. Los incidentes llegan por e-mail, WhatsApp o llamada telefónica, pero a veces se olvidan y no se resuelve el incidente.
+          p.mb-0 Poca rapidez en la gestión de las incidencias, porque no cuenta con una bitácora automatizada, en la que se registre el estado de cada una. Los incidentes llegan por <em>e-mail</em>, WhatsApp o llamada telefónica, pero a veces se olvidan y no se resuelve el incidente.
         li
           i.lista-ul__vineta.item-verde
           | El cliente no sabe cómo están siendo gestionadas sus incidencias. En ocasiones tiene la impresión de que no se está haciendo nada para resolver su problema.
@@ -367,7 +374,7 @@
     #2-5.titulo-segundo(data-aos="fade-up")
       h2 2.5 Definición de estructura de procesos
 
-    p(data-aos="fade-up") Con el análisis de los procesos existentes y sus efectos en la empresa se puede identificar qué se debe estructurar para lograr su mejora. Por lo tanto, es necesario crear dos estructuras, una para los procesos internos de atención al usuario y otra para los acuerdos entre el proveedor del servicio – cliente, esto con el fin de  controlar el área de soporte y el manejo de incidentes, de tal manera que estas labores no interrumpan las tareas de desarrollo de nuevos productos de software.
+    p(data-aos="fade-up") Con el análisis de los procesos existentes y sus efectos en la empresa se puede identificar qué se debe estructurar para lograr su mejora. Por lo tanto, es necesario crear dos estructuras, una para los procesos internos de atención al usuario y otra para los acuerdos entre el proveedor del servicio – cliente, esto con el fin de  controlar el área de soporte y el manejo de incidentes, de tal manera que estas labores no interrumpan las tareas de desarrollo de nuevos productos de <em>software</em>.
     p.mb-5(data-aos="fade-up") Un ejemplo de proceso interno es: 
 
 
@@ -450,50 +457,51 @@
           p.mb-0
             b Tabla 6. 
             | Entradas y salidas más comunes del proceso
-        table.tabla
-          thead
-            tr
-              th(colspan="2") Entrada
-              th Salidas
-          tbody
-            tr
-              td.p-4(colspan="2") 
-                ul.list-ul.mb-0
-                  li.mb-4
-                    i.lista-ul__vineta.item-verde
-                    p.mb-0
-                      b Formulario web de incidentes 
-                      br
-                      | Los incidentes se activan cuando se registran las peticiones en este formulario. 
-                  li.mb-4
-                    i.lista-ul__vineta.item-verde
-                    p.mb-0
-                      b Correo electrónico
-                      br
-                      | Se debe proveer un correo electrónico para que el cliente pueda informar su solicitud.
-                  li.mb-4
-                    i.lista-ul__vineta.item-verde
-                    p.mb-0
-                      b Llamada telefónica
-                      br
-                      | Proporcionar un número de contacto para que el cliente pueda manifestar su petición.
-                  li.mb-0
-                    i.lista-ul__vineta.item-verde
-                    p.mb-0
-                      b Chat
-                      br
-                      | Establecer un canal de chat como WhatsApp o Telegram para que el cliente indique su petición.
-              td.p-4
-                ul.list-ul.mb-0
-                  li.mb-2
-                    i.lista-ul__vineta.item-verde
-                    | Informes de incidencias gestionadas.
-                  li.mb-2
-                    i.lista-ul__vineta.item-verde
-                    | Nivel de satisfacción.
-                  li.mb-2
-                    i.lista-ul__vineta.item-verde
-                    | Reporte de oportunidad de atención.
+        .tabla.tabla--intercalada
+          table
+            thead
+              tr
+                th(colspan="2") Entrada
+                th Salidas
+            tbody
+              tr
+                td.p-4(colspan="2") 
+                  ul.lista-ul.mb-0
+                    li.mb-4
+                      i.lista-ul__vineta.item-verde
+                      p.mb-0
+                        b Formulario web de incidentes 
+                        br
+                        | Los incidentes se activan cuando se registran las peticiones en este formulario. 
+                    li.mb-4
+                      i.lista-ul__vineta.item-verde
+                      p.mb-0
+                        b Correo electrónico
+                        br
+                        | Se debe proveer un correo electrónico para que el cliente pueda informar su solicitud.
+                    li.mb-4
+                      i.lista-ul__vineta.item-verde
+                      p.mb-0
+                        b Llamada telefónica
+                        br
+                        | Proporcionar un número de contacto para que el cliente pueda manifestar su petición.
+                    li.mb-0
+                      i.lista-ul__vineta.item-verde
+                      p.mb-0
+                        b Chat
+                        br
+                        | Establecer un canal de chat como WhatsApp o Telegram para que el cliente indique su petición.
+                td.p-4
+                  ul.lista-ul.mb-0
+                    li.mb-2
+                      i.lista-ul__vineta.item-verde
+                      | Informes de incidencias gestionadas.
+                    li.mb-2
+                      i.lista-ul__vineta.item-verde
+                      | Nivel de satisfacción.
+                    li.mb-2
+                      i.lista-ul__vineta.item-verde
+                      | Reporte de oportunidad de atención.
 
     p.mb-5(data-aos="fade-up") Una vez identificada la entrada es importante definir la clasificación del incidente como lo indica la escala básica enunciada en la tabla 7: 
 
@@ -503,20 +511,21 @@
           p.mb-0
             b Tabla 7. 
             | Escala básica de incidentes
-        table.tabla
-          thead
-            tr
-              th(colspan="5") Escala básica de incidencias
-          tbody
-            tr
-              td.text-bold Normal
-              td(colspan="4") Hace referencia a una solicitud hecha por el director de tecnología o a quien delegue, donde no se ve comprometido o afectado de manera considerable el servicio para el cual se solicita el soporte. El nivel de criticidad no afecta de manera directa el core del servicio de agendamiento.
-            tr
-              td.text-bold Prioritaria
-              td(colspan="4") Hace referencia a una solicitud hecha por el director de tecnología o a quien delegue, donde se ve afectado de manera directa el correcto funcionamiento de las herramientas o servicios definidos en el alcance. Estas fallas pueden afectar directamente el core del servicio de agendamiento.
-            tr
-              td.text-bold Programada
-              td(colspan="4") Hace referencia a una solicitud hecha por el director de tecnología o a quien delegue, donde el acceso a los servicios o herramientas no se ve afectado, pero es necesario programar alguna actividad de ajustes, cambios, parametrizaciones o actualizaciones.
+        .tabla.tabla--intercalada
+          table
+            thead
+              tr
+                th(colspan="5") Escala básica de incidencias
+            tbody
+              tr
+                td.text-bold Normal
+                td(colspan="4") Hace referencia a una solicitud hecha por el director de tecnología o a quien delegue, donde no se ve comprometido o afectado de manera considerable el servicio para el cual se solicita el soporte. El nivel de criticidad no afecta de manera directa el <em>core</em> del servicio de agendamiento.
+              tr
+                td.text-bold Prioritaria
+                td(colspan="4") Hace referencia a una solicitud hecha por el director de tecnología o a quien delegue, donde se ve afectado de manera directa el correcto funcionamiento de las herramientas o servicios definidos en el alcance. Estas fallas pueden afectar directamente el <em>core</em> del servicio de agendamiento.
+              tr
+                td.text-bold Programada
+                td(colspan="4") Hace referencia a una solicitud hecha por el director de tecnología o a quien delegue, donde el acceso a los servicios o herramientas no se ve afectado, pero es necesario programar alguna actividad de ajustes, cambios, parametrizaciones o actualizaciones.
 
     .float-layout-container(data-aos="fade-up")
       img.img-text.ms-3.mb-3.w-50(
@@ -526,7 +535,7 @@
 
       p(data-aos="fade-up") Los incidentes también se clasifican por tipo de solicitud:
 
-      ul.list-ul(data-aos="fade-up")
+      ul.lista-ul(data-aos="fade-up")
         li.mb-2
           i.lista-ul__vineta.item-verde
           | Falla general del sistema.
@@ -553,10 +562,10 @@
     #2-7.titulo-segundo(data-aos="fade-up")
       h2 2.7 Establecimiento de controles
 
-    p.mb-5(data-aos="fade-up") En este paso se definen los controles y el tiempo de su aplicación en la mesa de servicio, con el fin realizar seguimiento al cumplimiento de los procesos internos de atención al usuario y a los acuerdos entre el proveedor del servicio – cliente, que permitan mejorar el servicio. Algunos ejemplos de controles son:
+    p.mb-5(data-aos="fade-up") En este paso se definen los controles y el tiempo de su aplicación en la mesa de servicio, con el fin de realizar seguimiento al cumplimiento de los procesos internos de atención al usuario y a los acuerdos entre el proveedor del servicio – cliente, que permitan mejorar el servicio. Algunos ejemplos de controles son:
 
     .cajon.color-acento-botones.p-4.mb-4(data-aos="fade-up")
-      ul.list-ul.mb-0
+      ul.lista-ul.mb-0
         li.mb-2
           i.lista-ul__vineta.item-verde
           | Revisión mensual de los indicadores de gestión para identificar el tipo de servicio que presenta más fallas o no está correctamente gestionado.
@@ -575,34 +584,35 @@
           p.mb-0
             b Tabla 8. 
             | Indicadores de gestión
-        table.tabla
-          thead
-            tr
-              th Indicador
-              th Descripción
-          tbody
-            tr
-              td Número de incidentes solicitados.
-              td Cantidad de registros de solicitudes de incidentes.
-            tr
-              td Número de incidentes en ejecución.
-              td Cantidad de incidentes que no se han resuelto aún.
-            tr
-              td Número de incidentes retrasados no cerrados.
-              td
-                | Cantidad de incidentes que se han pasado del tiempo o nivel de servicio acordado con el cliente y aún no se han resuelto.
-            tr
-              td Tipo medio de incidencia por tipo incidencia.
-              td
-                | Cantidad de tiempo promedio empleado en resolver las incidencias reportadas durante determinado rango de horas, días, meses.
-            tr
-              td Tipo medio de incidencia por clasificación de la falla.
-              td
-                | Cantidad de tiempo promedio empleado en resolver incidencias para cada tipo de clasificación.
-            tr
-              td Número de incidentes cerrados fuera de tiempo por clasificación.
-              td
-                | Cantidad de incidentes que se resolvieron por fuera del tiempo acordado con el cliente.
+        .tabla.tabla--intercalada
+          table
+            thead
+              tr
+                th Indicador
+                th Descripción
+            tbody
+              tr
+                td Número de incidentes solicitados.
+                td Cantidad de registros de solicitudes de incidentes.
+              tr
+                td Número de incidentes en ejecución.
+                td Cantidad de incidentes que no se han resuelto aún.
+              tr
+                td Número de incidentes retrasados no cerrados.
+                td
+                  | Cantidad de incidentes que se han pasado del tiempo o nivel de servicio acordado con el cliente y aún no se han resuelto.
+              tr
+                td Tipo medio de incidencia por tipo incidencia.
+                td
+                  | Cantidad de tiempo promedio empleado en resolver las incidencias reportadas durante determinado rango de horas, días, meses.
+              tr
+                td Tipo medio de incidencia por clasificación de la falla.
+                td
+                  | Cantidad de tiempo promedio empleado en resolver incidencias para cada tipo de clasificación.
+              tr
+                td Número de incidentes cerrados fuera de tiempo por clasificación.
+                td
+                  | Cantidad de incidentes que se resolvieron por fuera del tiempo acordado con el cliente.
 
     p.mb-0(data-aos="fade-up") Los anteriores indicadores no son los únicos, es posible que con la implementación y ejecución de los servicios se evidencian otros, según la dinámica del servicio.
 
@@ -613,7 +623,7 @@
 
     p.mb-5(data-aos="fade-up") Generalmente, en el diseño de procesos de gestión de incidentes deben existir al menos cuatro niveles: 
 
-    TabsA.color-acento-botones.mb-5(data-aos="fade-up")
+    TabsA.color-acento-contenido.mb-5(data-aos="fade-up")
       .tarjeta.color-acento-botones__claro.p-4(titulo="Nivel 1")
         .row.justify-content-center.align-items-center
           .col-6.col-md-2.mb-4.mb-md-0
@@ -622,7 +632,7 @@
               alt='Texto que describa la imagen'
             )
           .col-md
-            p.mb-0 Si no se logra brindar una solución en el nivel anterior se escala el incidente a este nivel para que el técnico de desarrollo del sistema atienda este requerimiento.
+            p.mb-0 Se da comienzo con una asistencia inicial, este nivel es el responsable de las incidencias básicas del cliente, es el primer contacto con el usuario; proporciona asistencia física y/o remota a reportes relacionados con el uso de los dispositivos de cómputo, impresión, conectividad, entre otros. Atiende el requerimiento y brinda solución a las fallas básicas; un ejemplo de falla básica: la falta de capacitación del usuario en el manejo de la herramienta bien sea de <em>hadware</em> o <em>software</em>.
             
       .tarjeta.color-acento-botones__claro.p-4(titulo="Nivel 2")
         .row.justify-content-center.align-items-center
@@ -632,7 +642,7 @@
               alt='Texto que describa la imagen'
             )
           .col-md
-            p.mb-0 Se da comienzo con una asistencia inicial, este nivel es el responsable de las incidencias básicas del cliente, es el primer contacto con el usuario; proporciona asistencia física y/o remota a reportes relacionados con el uso de los dispositivos de cómputo, impresión, conectividad, entre otros. Atiende el requerimiento y brinda solución a las fallas básicas; un ejemplo de falla básica: la falta de capacitación del usuario en el manejo de la herramienta bien sea de hadware o software.
+            p.mb-0 Si no se logra brindar una solución en el nivel anterior se escala el incidente a este nivel para que el técnico de desarrollo del sistema atienda este requerimiento.
       .tarjeta.color-acento-botones__claro.p-4(titulo="Nivel 3")
         .row.justify-content-center.align-items-center
           .col-6.col-md-2.mb-4.mb-md-0
@@ -679,7 +689,7 @@
         .titulo-sexto.color-acento-contenido
           p.mb-0
             b Figura 4. 
-            | Servidores desk software de pago 
+            | Servidores <em>desk software</em> de pago 
         figure
           img.borde-verde(
             src='@/assets/curso/comparativa_helpdesk.png',
@@ -687,23 +697,23 @@
           )
           figcaption Nota. Tomado de Bonillaware (2021). https://www.bonillaware.com/wp-content/uploads/comparativa_helpdesk.png
 
-    p.mb-5(data-aos="fade-up") En el mercado existen muchas herramientas de pago y gratuitas, las cuales pueden ser seleccionadas según la necesidad. En la siguiente figura se muestra algunas de las herramientas de pago con sus diferentes características:
+    p.mb-5(data-aos="fade-up") En la siguiente tabla se muestran las herramientas más comunes bajo la licencia <em>Open Source</em>, es decir, aplicaciones de código abierto para su modificación y, las cuales en su mayoría, no requieren de pago para su uso:
 
     .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-10
         .titulo-sexto.color-acento-contenido
           p.mb-0
             b Tabla 9. 
-            | Servidores desk software Open Source y no pago
+            | Servidores <em>desk software Open Source</em> y no pago
 
-        table.tabla
+        table.tabla.tabla--intercalada
           thead
             tr
               th Proyecto
               th Web
           tbody
             tr
-              td GLPI (Gestionnaire Libre de Parc Informatique)
+              td GLPI (<em>Gestionnaire Libre de Parc Informatique</em>)
               td
                 a(href="https://glpi-project.org/es/" target="_blank") https://glpi-project.org/es/
             tr
@@ -711,7 +721,7 @@
               td
                 a(href="https://osticket.com/" target="_blank") https://osticket.com/
             tr
-              td ((OTRS)) Community Edition
+              td ((OTRS)) <em>Community Edition</em>
               td
                 a(href="https://otrs.com/" target="_blank") https://otrs.com/
             tr
@@ -719,7 +729,7 @@
               td
                 a(href="https://netbox.readthedocs.io/en/stable/" target="_blank") https://netbox.readthedocs.io/en/stable/
 
-    p.mb-0(data-aos="fade-up") Al igual que en el listado de Servidores desk software de pago, los Servidores desk software Open Source no pago presentan características propias, las cuales pueden satisfacer diferentes necesidades de la empresa prestadora del servicio y a sus clientes.
+    p.mb-0(data-aos="fade-up") Al igual que en el listado de Servidores <em>desk</em> <em>software</em> de pago, los Servidores <em>desk</em> <em>software</em> <em>Open Source</em> no pago presentan características propias, las cuales pueden satisfacer diferentes necesidades de la empresa prestadora del servicio y a sus clientes.
 
     Separador(data-aos="fade-up")
 
@@ -733,9 +743,9 @@
       )
       p Una vez elegidas las herramientas se procede a la instalación y configuración, de manera que a los clientes se les permita solicitar el soporte. Se recomienda usar la herramienta osTicket, ya que el proveedor la ofrece gratuitamente en su página web. 
       .cajon.d-inline-block.color-acento-botones.p-4
-        p.mb-0 Casi todos los proveedores de hosting ofrecen alguna herramienta Open Source y las de chat online para brindar el respectivo soporte.
+        p.mb-0 Casi todos los proveedores de hosting ofrecen alguna herramienta <em>Open Source</em> y las de chat online para brindar el respectivo soporte.
 
-      p En la siguiente figura se ofrece un ejemplo de una de las herramientas de soporte Open Source, llamada osTicket  en algunos de sus componentes de interfaz gráfica:
+      p En la siguiente figura se ofrece un ejemplo de una de las herramientas de soporte <em>Open Source</em>, llamada osTicket  en algunos de sus componentes de interfaz gráfica:
 
     .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-8
@@ -764,7 +774,7 @@
                     | Base de datos de conocimiento.
                   li
                     i.lista-ul__vineta.item-amarillo
-                    | Control de incidencias o tickets
+                    | Control de incidencias o <em>tickets</em>
                   li.mb-0
                     i.lista-ul__vineta.item-amarillo
                     | Control de tareas y actividades.

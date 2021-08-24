@@ -65,6 +65,9 @@
       color: $white
 
 .tabla
+  overflow-x: auto
+  table
+    min-width: 700px
   thead
     tr
       &:nth-child(1)
@@ -90,6 +93,13 @@
     text-align: center
     font-weight: bold
 
+.tabla--intercalada
+  tbody
+    tr
+      &:nth-child(odd)
+        td
+          background-color: #FFEDB7
+
 .bloque-texto-a.reverso
   background-color: #FFF6DB
   &:before
@@ -106,13 +116,17 @@
   font-size: $h1-font-size
   line-height: 1em
 
-.list-ul
+.lista-ul
   li
     display: flex
-    align-items: center
-    
+
     i
       margin-right: 5px
+      &:before
+        position: relative
+        top: -4px
+
+
 
 
 .tarjeta-hover
@@ -138,3 +152,8 @@
 
 .borde-verde
   border: 4px solid #26A69A
+
+
+.tabs-a
+  &__tab
+    background-color: $color-acento-botones

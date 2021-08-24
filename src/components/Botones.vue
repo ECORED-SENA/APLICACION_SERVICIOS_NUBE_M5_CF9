@@ -21,11 +21,11 @@
 
       .tarjeta.color-acento-botones__claro.p-3(v-else-if="selected === 1")
         h3 Tecnologías
-        p.mb-0 hace referencia a las tecnologías que emplea la organización para hacerse más productiva en su gestión. 
+        p.mb-0 Hace referencia a las tecnologías que emplea la organización para hacerse más productiva en su gestión. 
 
       .tarjeta.color-acento-botones__claro.p-3(v-else-if="selected === 2")
         h3 Procesos
-        p.mb-0 son el conjunto de buenas prácticas para la implementación y gestión de TI, garantizando que sean utilizadas de forma correcta, a la vez que cuida su integridad. 
+        p.mb-0 Son el conjunto de buenas prácticas para la implementación y gestión de TI, garantizando que sean utilizadas de forma correcta, a la vez que cuida su integridad. 
 
 </template>
 

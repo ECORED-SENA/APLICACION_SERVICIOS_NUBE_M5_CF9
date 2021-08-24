@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Gestión de clientes',
     descripcionCurso:
-      'La gestión de clientes es concebida como el pilar fundamental que sustenta el desarrollo y crecimiento de toda organización. En este componente se abordarán sus dos elementos a nivel comercial y de entidades.  Ambos tienen como fin maximizar su productividad, y para lograrlo, es necesario identificar los conceptos de gestión de TI, los cuales ejemplifican uno de los procesos de gestión de TI relacionándolo con la atención a usuarios finales de un conjunto de productos software.',
+      'La gestión de clientes es concebida como el pilar fundamental que sustenta el desarrollo y crecimiento de toda organización. En este componente se abordarán sus dos elementos a nivel comercial y de entidades.  Ambos tienen como fin maximizar su productividad, y para lograrlo, es necesario identificar los conceptos de gestión de TI, los cuales ejemplifican uno de los procesos de gestión de TI relacionándolo con la atención a usuarios finales de un conjunto de productos <em>software</em>.',
     imagenBannerPrincipal: require('@/assets/curso/portada.svg'),
     fondoBannerPrincipal: require('@/assets/curso/banner.jpg'),
   },
@@ -56,7 +56,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Estado de costos',
+        titulo: 'Mesa de servicio',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -164,11 +164,11 @@ export default {
     },
     {
       referencia:
-        'Granizo, I. (2009). Diseño e implementación de un modelo de simulación para el Gobierno de las TI basado en ITIL v3, MOF y CMMI for services. Universidad Carlos III de Madrid.',
+        'Granizo, I. (2009). Diseño e implementación de un modelo de simulación para el Gobierno de las TI basado en ITIL v3, MOF y CMMI <em>for services</em>. Universidad Carlos III de Madrid.',
     },
     {
       referencia:
-        'IT Process Wiki. (2021). El Wiki de ITIL® | IT Process Maps.',
+        '<em>IT Process Wiki</em>. (2021). <em>El Wiki de ITIL® | IT Process Maps</em>.',
       link: 'https://wiki.es.it-processmaps.com/index.php/Portada',
     },
   ],
@@ -209,12 +209,13 @@ export default {
     },
     {
       texto:
-        'Setiawan, A. (2019). Tutoriall instalation OSTicket on Windows10 with XAMPP [video] YouTube. ',
+        'Setiawan, A. (2019). <em>Tutoriall instalation OSTicket on Windows10 with XAMPP </em>[video] YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=KCz1ZKGOp28',
     },
     {
-      texto: 'IT Process Wiki. (2021). El Wiki de ITIL® | IT Process Maps',
+      texto:
+        '<em>IT Process Wiki</em>. (2021). <em>El Wiki de ITIL® | IT Process Maps</em>',
       tipo: 'Wiki',
       descarga: 'https://wiki.es.it-processmaps.com/index.php/Portada ',
     },
@@ -238,23 +239,23 @@ export default {
         nombre: 'Peter Emerson Pinchao',
         cargo: 'Experto temático',
         centro:
-          'Regional Cauca Centro de Teleinformática y Producción Industrial',
+          'Centro de Teleinformática y Producción Industrial Regional Cauca',
       },
       {
         nombre: 'Paola Andrea Quintero Aguilar',
         cargo: 'Diseñadora instruccional',
-        centro: 'Regional Bogotá Centro de Gestión Industrial',
+        centro: 'Centro de Gestión Industrial Regional Bogotá',
       },
       {
         nombre: 'Alix Cecilia Chinchilla Rueda',
         cargo: 'Evaluadora instruccional',
-        centro: 'Regional Bogotá Centro de Gestión Industrial',
+        centro: 'Centro de Gestión Industrial Regional Bogotá',
       },
       {
         nombre: 'Julia Isabel Roberto',
         cargo: 'Diseñadora y evaluadora instruccional',
         centro:
-          'Regional Distrito Capital Centro para la Industria de la Comunicación Gráfica',
+          'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -270,25 +271,25 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Juan Carlos Tapias Rueda',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
