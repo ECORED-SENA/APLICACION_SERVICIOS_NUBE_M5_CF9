@@ -30,13 +30,12 @@
         b Figura 1. 
         | Pasos para establecer la mesa de ayuda
 
-    .tarjeta.tarjeta--gris.p-5(data-aos="fade-up")
-      .row.justify-content-center
-        .col-md-8
-          img.img-text(
-            src='@/assets/curso/infografia-01.svg',
-            alt='Texto que describa la imagen'
-          )
+    .row.justify-content-center(data-aos="fade-up")
+      .col-md-8
+        img.img-text(
+          src='@/assets/curso/infografia-01.svg',
+          alt='Texto que describa la imagen'
+        )
 
     Separador(data-aos="fade-up")
 
