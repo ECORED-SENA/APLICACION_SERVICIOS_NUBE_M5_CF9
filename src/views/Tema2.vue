@@ -61,19 +61,19 @@
                 td La recepción de los incidentes tiene varios canales de acceso, <em>e-mail</em>, WhatsApp, celular etc.
                 td(rowspan="4") 
                   ul.lista-ul.mb-0
-                    li 
+                    li.text-start
                       i.lista-ul__vineta.item-verde
                       | El cliente se queja por la indisponibilidad del servicio.
-                    li
+                    li.text-start
                       i.lista-ul__vineta.item-verde
                       | El soporte que se brinda no es el adecuado.
-                    li
+                    li.text-start
                       i.lista-ul__vineta.item-verde
                       | El servicio postventa hace que el producto o servicio pierda valor.
-                    li
+                    li.text-start
                       i.lista-ul__vineta.item-verde
                       | Atención desordenada de incidentes.
-                    li
+                    li.text-start
                       i.lista-ul__vineta.item-verde
                       | Incidentes que no se resuelven o se resuelven inoportunamente.
 
@@ -87,16 +87,16 @@
                 td No se capacita adecuadamente al nuevo personal y a los nuevos clientes.
                 td(rowspan="3")
                   ul.lista-ul.mb-0
-                    li
+                    li.text-start
                       i.lista-ul__vineta.item-verde
                       | Sobrecarga operativa de soporte.
-                    li
+                    li.text-start
                       i.lista-ul__vineta.item-verde
                       | Insatisfacción del cliente a razón de soluciones temporales. 
-                    li
+                    li.text-start
                       i.lista-ul__vineta.item-verde
                       | La imagen del proveedor TI se debilita frente al cliente.
-                    li
+                    li.text-start
                       i.lista-ul__vineta.item-verde
                       | El cliente se acostumbra a no seguir el conducto regular definido para resolver incidencias.
 
@@ -108,10 +108,10 @@
                 td Reuniones no programadas.
                 td 
                   ul.lista-ul.mb-0
-                    li
+                    li.text-start
                       i.lista-ul__vineta.item-verde
                       | Pérdida de tiempo.
-                    li
+                    li.text-start
                       i.lista-ul__vineta.item-verde
                       | Las reuniones derivan en temas no enfocados o definidos.
 
@@ -119,13 +119,13 @@
                 td Suspender trabajos que están marchando para asumir nuevos incidentes.
                 td
                   ul.lista-ul.mb-0
-                    li
+                    li.text-start
                       i.lista-ul__vineta.item-verde
                       | Se crea una cultura de incumplimiento e irresponsabilidad por parte del proveedor de TI en el quehacer cotidiano de sus labores.
-                    li
+                    li.text-start
                       i.lista-ul__vineta.item-verde
                       | Se crea la costumbre de pedir disculpas por el incumplimiento.
-                    li
+                    li.text-start
                       i.lista-ul__vineta.item-verde
                       | Cliente insatisfecho y desmotivado.
 
