@@ -33,7 +33,10 @@
     .tarjeta.tarjeta--gris.p-5(data-aos="fade-up")
       .row.justify-content-center
         .col-md-8
-          BotonesB
+          img.img-text(
+            src='@/assets/curso/infografia-01.svg',
+            alt='Texto que describa la imagen'
+          )
 
     Separador(data-aos="fade-up")
 
@@ -820,12 +823,8 @@
 </template>
 
 <script>
-import BotonesB from '../components/BotonesB.vue'
 export default {
   name: 'Tema2',
-  components: {
-    BotonesB,
-  },
   data: () => ({
     mostrarIndicador: true,
   }),
