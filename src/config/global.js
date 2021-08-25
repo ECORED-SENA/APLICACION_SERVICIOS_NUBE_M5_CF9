@@ -200,12 +200,14 @@ export default {
         'Baud, J. (2016). ITIL® V3. Entender el enfoque y adoptar las buenas prácticas. Ediciones ENI.',
       tipo: 'Libro',
       link:
-        'https://books.google.com.co/books?id=5xmsQeWfQqoC&lpg=PP1&pg=PA59#v=onepage&q&f=false',
+        'https://www.ediciones-eni.com/libro/itil-v3-entender-el-enfoque-y-adoptar-las-buenas-practicas-9782409001789',
     },
     {
       texto:
         'Baud, J. (2020). ITIL® 4 Entender el enfoque y adoptar las buenas prácticas. Ediciones ENI.',
       tipo: 'Libro',
+      link:
+        'https://www.ediciones-eni.com/libro/itil-4-entender-el-enfoque-y-adoptar-las-buenas-practicas-9782409027383',
     },
     {
       texto:
@@ -217,7 +219,7 @@ export default {
       texto:
         '<em>IT Process Wiki</em>. (2021). <em>El Wiki de ITIL® | IT Process Maps</em>',
       tipo: 'Wiki',
-      descarga: 'https://wiki.es.it-processmaps.com/index.php/Portada ',
+      link: 'https://wiki.es.it-processmaps.com/index.php/Portada',
     },
   ],
   creditos: {
