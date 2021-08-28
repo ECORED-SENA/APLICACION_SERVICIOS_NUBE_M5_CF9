@@ -634,7 +634,7 @@
               alt='Texto que describa la imagen'
             )
           .col-md
-            p.mb-0 Se da comienzo con una asistencia inicial, este nivel es el responsable de las incidencias básicas del cliente, es el primer contacto con el usuario; proporciona asistencia física y/o remota a reportes relacionados con el uso de los dispositivos de cómputo, impresión, conectividad, entre otros. Atiende el requerimiento y brinda solución a las fallas básicas; un ejemplo de falla básica: la falta de capacitación del usuario en el manejo de la herramienta bien sea de <em>hadware</em> o <em>software</em>.
+            p.mb-0 Se da comienzo con una asistencia inicial, este nivel es el responsable de las incidencias básicas del cliente, es el primer contacto con el usuario; proporciona asistencia física y/o remota a reportes relacionados con el uso de los dispositivos de cómputo, impresión, conectividad, entre otros. Atiende el requerimiento y brinda solución a las fallas básicas; un ejemplo de falla básica: la falta de capacitación del usuario en el manejo de la herramienta bien sea de <em>hardware</em> o <em>software</em>.
             
       .tarjeta.color-acento-botones__claro.p-4(titulo="Nivel 2")
         .row.justify-content-center.align-items-center

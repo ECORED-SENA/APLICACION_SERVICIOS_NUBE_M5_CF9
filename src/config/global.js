@@ -159,7 +159,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Bonillaware. (2021). Helpdesk: 7 herramientas de gestión de atención al cliente. Bonillaware.',
+        'Bonillaware. (2021). Helpdesk: 7 herramientas de gestión de atención al cliente. Bonillaware. ',
       link: 'https://www.bonillaware.com/7-herramientas-de-helpdesk',
     },
     {
@@ -168,7 +168,7 @@ export default {
     },
     {
       referencia:
-        '<em>IT Process Wiki</em>. (2021). <em>El Wiki de ITIL® | IT Process Maps</em>.',
+        '<em>IT Process Wiki</em>. (2021). <em>El Wiki de ITIL® | IT Process Maps</em>. ',
       link: 'https://wiki.es.it-processmaps.com/index.php/Portada',
     },
   ],
@@ -184,7 +184,7 @@ export default {
         'Falla o solicitud de nivel técnico sobre un sistema o servicios de infraestructura o aplicación.',
     },
     {
-      termino: 'Outsorsing',
+      termino: 'Outsourcing',
       significado:
         'Hace referencia al proceso de subcontratación o  externalización de algún proceso o parte del proceso empresarial, de tal forma que se transfieren los recursos y responsabilidades referentes al cumplimiento de ciertas tareas a una sociedad o persona externa.',
     },
