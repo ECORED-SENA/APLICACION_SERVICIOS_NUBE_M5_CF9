@@ -775,8 +775,7 @@
                     i.lista-ul__vineta.item-amarillo
                     | Base de datos de conocimiento.
                   li
-                    i.lista-ul__vineta.item-amarillo
-                    | Control de incidencias o <em>tickets</em>
+                    p #[i.lista-ul__vineta.item-amarillo] Control de incidencias o <em>tickets</em>
                   li.mb-0
                     i.lista-ul__vineta.item-amarillo
                     | Control de tareas y actividades.
